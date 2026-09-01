@@ -1,0 +1,17 @@
+{
+  "name": "instagram-manager",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Integração com a Instagram Graph API: publicar posts/reels/carrosséis, ler e responder comentários e Directs.",
+  "bin": {
+    "ig": "./src/cli.js"
+  },
+  "scripts": {
+    "ig": "node src/cli.js",
+    "painel": "node src/cli.js painel"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

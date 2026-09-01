@@ -1,0 +1,44 @@
+# O token do Instagram vale 60 dias. Este fluxo o renova nos dias 1 e 15 de cada
+# mês e grava o token novo de volta no Secret do repositório.
+#
+# Precisa de um segundo segredo, GH_PAT: um Personal Access Token com permissão
+# de escrita em "Secrets" deste repositório. Sem ele, o fluxo avisa nos logs e a
+# renovação passa a ser manual (npm run ig -- ig-renovar-token, na sua máquina).
+
+name: Renovar token do Instagram
+
+on:
+  schedule:
+    - cron: '0 9 1,15 * *'
+  workflow_dispatch:
+
+jobs:
+  renovar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Renovar na Meta e gravar no Secret
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          NOVO=$(node -e "
+            const t = process.env.IG_ACCESS_TOKEN;
+            fetch('https://graph.instagram.com/refresh_access_token?grant_type=ig_refresh_token&access_token=' + t)
+              .then(r => r.json())
+              .then(d => {
+                if (!d.access_token) { console.error('falhou:', JSON.stringify(d)); process.exit(1); }
+                console.log(d.access_token);
+              });
+          ")
+          if [[ -z "$GH_TOKEN" ]]; then
+            echo "::warning::GH_PAT nao configurado. O token foi renovado na Meta, mas nao pude grava-lo no Secret. Renove localmente com: npm run ig -- ig-renovar-token"
+            exit 0
+          fi
+          echo "$NOVO" | gh secret set IG_ACCESS_TOKEN --repo "${{ github.repository }}"
+          echo "Secret IG_ACCESS_TOKEN atualizado. Vale por mais 60 dias."

@@ -1,0 +1,13 @@
+# .gitignore do repositório público da automação.
+#
+# Diferente do .gitignore local: aqui automacao.json e .automacao-estado.json
+# PRECISAM ser versionados. O primeiro leva as regras e a copy para a nuvem; o
+# segundo é a memória de quem já foi atendido, que o Actions grava a cada ciclo
+# para ninguém receber a mesma mensagem duas vezes.
+#
+# O que nunca pode entrar: o .env, que tem os tokens.
+
+.env
+.env.*
+node_modules/
+*.log

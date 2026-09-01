@@ -1,0 +1,61 @@
+{
+  "_leiame": "Copie este arquivo para automacao.json e edite. Só automacao.json é lido pelo motor. A ORDEM das regras é a prioridade: a primeira que casar é a que dispara, então deixe as palavras específicas em cima e evite gatilhos genéricos como 'quero'.",
+  "postsVerificados": 25,
+  "conversasVerificadas": 15,
+  "janelaHoras": 48,
+  "maxAcoesPorCiclo": 20,
+  "pausaEntreAcoesMs": 1500,
+  "responderDirect": true,
+  "ignorarUsuarios": [
+    "sicarneironeurociencia"
+  ],
+  "respostaPublicaPadrao": [
+    "Acabei de te mandar no direct 💜",
+    "Te respondi no direct, dá uma olhada lá 💜",
+    "Enviado no seu direct 💜"
+  ],
+  "regras": [
+    {
+      "nome": "webinario",
+      "ativo": true,
+      "palavras": [
+        "expansao",
+        "expansão",
+        "webinario",
+        "webinário",
+        "vaga"
+      ],
+      "respostaPublica": [
+        "Acabei de te enviar o acesso no direct. 💜 Agora é só garantir sua vaga!"
+      ],
+      "cartao": {
+        "titulo": "Os 3 Segredos do Terapeuta de Alto Valor",
+        "subtitulo": "Webinário ao vivo · 17/10, das 9h às 12h30",
+        "imagem": "https://simoneneurociencias.github.io/card-dm-v6.jpg",
+        "url": "https://simoneneurociencias.github.io/",
+        "botao": "Garantir minha vaga"
+      }
+    },
+    {
+      "nome": "ebook",
+      "ativo": false,
+      "palavras": [
+        "ebook",
+        "e-book",
+        "livro",
+        "guia"
+      ],
+      "direct": "Oi! O guia é este aqui: COLE_O_LINK_DO_EBOOK\n\nLê com calma e me conta depois o que mais fez sentido pra você."
+    },
+    {
+      "nome": "diagnostico",
+      "ativo": false,
+      "palavras": [
+        "diagnostico",
+        "diagnóstico",
+        "teste"
+      ],
+      "direct": "Oi! O diagnóstico de bloqueio de crescimento está aqui: COLE_O_LINK\n\nLeva uns 3 minutos e no fim você vê onde está a sua maior trava."
+    }
+  ]
+}

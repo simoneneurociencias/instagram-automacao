@@ -1,0 +1,51 @@
+# Responde os comentários do Instagram sozinho, sem depender do computador ligado.
+#
+# Roda a cada 5 minutos. O GitHub não garante pontualidade nesse agendamento:
+# na prática costuma sair entre 5 e 15 minutos. Para resposta em 1 minuto, use
+# o painel local (npm run painel).
+
+name: Automação do Instagram
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch: # permite rodar na mão pelo site do GitHub
+
+# Uma execução por vez: sem isso, duas rodadas simultâneas responderiam
+# a mesma pessoa duas vezes.
+concurrency:
+  group: automacao-instagram
+  cancel-in-progress: false
+
+permissions:
+  contents: write # para gravar o histórico de quem já foi atendido
+
+jobs:
+  responder:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Responder comentários e directs
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+        run: node src/cli.js automacao
+
+      - name: Guardar quem já foi atendido
+        run: |
+          if [[ -n "$(git status --porcelain .automacao-estado.json)" ]]; then
+            git config user.name "automacao-instagram"
+            git config user.email "actions@github.com"
+            git add .automacao-estado.json
+            git commit -m "chore: atualiza historico de atendimentos [skip ci]"
+            git push origin HEAD:${GITHUB_REF_NAME}
+          else
+            echo "nada novo para guardar"
+          fi
