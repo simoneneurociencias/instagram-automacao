@@ -4,7 +4,6 @@
 
 import { IGClient } from './client.js';
 import { IGLoginClient, renovarTokenIG, renovarSePreciso } from './client-ig.js';
-import { iniciarPainel } from './painel.js';
 import { loadEnv } from './client.js';
 import {
   carregarRegras,
@@ -96,6 +95,9 @@ async function main() {
   }
 
   if (cmd === 'painel') {
+    // Carregado só aqui: na nuvem o painel não existe, e um import no topo
+    // derrubaria a automação inteira por causa de um arquivo que não vai para lá.
+    const { iniciarPainel } = await import('./painel.js');
     iniciarPainel({ porta: Number(flags.porta) || 7788, abrir: !flags['sem-abrir'] });
     return; // o servidor segura o processo
   }
@@ -120,7 +122,20 @@ async function main() {
     return;
   }
 
-  const ig = new IGClient();
+  // O cliente da via antiga só nasce quando algum comando o usa de fato.
+  // Criá-lo aqui exigiria ACCESS_TOKEN sempre, e na nuvem só existe o token da
+  // via nova (IG_ACCESS_TOKEN), o que derrubava a automação antes de começar.
+  let clienteAntigo = null;
+  const ig = new Proxy(
+    {},
+    {
+      get(_alvo, prop) {
+        if (!clienteAntigo) clienteAntigo = new IGClient();
+        const valor = clienteAntigo[prop];
+        return typeof valor === 'function' ? valor.bind(clienteAntigo) : valor;
+      },
+    }
+  );
 
   switch (cmd) {
     case 'whoami':

@@ -1,5 +1,53 @@
 {
-  "comentarios": {},
+  "comentarios": {
+    "18114258428066415": {
+      "regra": "webinario",
+      "em": "2026-08-31T21:57:37.097Z",
+      "erros": [
+        "direct: Instagram API erro: An unknown error has occurred.",
+        "resposta pública não postada: o direct falhou antes"
+      ]
+    },
+    "17947014804294364": {
+      "regra": "webinario",
+      "em": "2026-08-31T23:26:10.654Z",
+      "erros": [
+        "direct: Instagram API erro: An unknown error has occurred.",
+        "resposta pública não postada: o direct falhou antes"
+      ]
+    },
+    "18137590558613802": {
+      "regra": "webinario",
+      "em": "2026-08-31T23:26:14.335Z",
+      "erros": []
+    },
+    "18133635835652526": {
+      "regra": "webinario",
+      "em": "2026-08-31T23:39:54.501Z",
+      "erros": []
+    },
+    "18015417863930373": {
+      "regra": "webinario",
+      "em": "2026-09-01T00:36:47.626Z",
+      "erros": []
+    },
+    "18040870913820169": {
+      "regra": "webinario",
+      "em": "2026-09-01T00:42:26.302Z",
+      "erros": []
+    },
+    "18102639227569343": {
+      "regra": "webinario",
+      "em": "2026-09-01T01:05:27.436Z",
+      "erros": []
+    },
+    "18621207577060806": {
+      "regra": "webinario",
+      "em": "2026-09-01T01:23:43.762Z",
+      "erros": []
+    }
+  },
   "conversas": {},
-  "execucoes": 0
+  "execucoes": 17,
+  "ultimaExecucao": "2026-09-01T01:29:48.066Z"
 }
