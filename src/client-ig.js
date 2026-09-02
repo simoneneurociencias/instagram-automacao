@@ -208,3 +208,21 @@ export async function renovarSePreciso(env, { log = console.log } = {}) {
     return false;
   }
 }
+
+/**
+ * Diz se a pessoa segue a conta. Só responde para quem já interagiu (comentou
+ * ou mandou mensagem), que é exatamente o nosso caso.
+ *
+ * Na dúvida devolve `null` (não deu para saber), e nunca `false`: barrar um
+ * seguidor de verdade por causa de uma falha de rede é pior do que entregar
+ * para alguém que não segue.
+ */
+export async function segueVoce(ig, userId) {
+  if (!userId) return null;
+  try {
+    const r = await ig.request(userId, { params: { fields: 'is_user_follow_business' } });
+    return typeof r.is_user_follow_business === 'boolean' ? r.is_user_follow_business : null;
+  } catch {
+    return null;
+  }
+}

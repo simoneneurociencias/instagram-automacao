@@ -11,6 +11,8 @@ import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
+import { segueVoce } from './client-ig.js';
+
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const RAIZ = join(__dirname, '..');
 const CAMINHO_REGRAS = join(RAIZ, 'automacao.json');
@@ -139,6 +141,28 @@ export async function rodarCiclo(ig, config, estado, { dryRun = false, log = con
 
       const regra = acharRegra(config.regras, c.text, { mediaId: post.id, origem: 'comentario' });
       if (!regra) continue;
+
+      // Gate de seguidor: algumas iscas só são liberadas para quem já segue.
+      // A consulta só responde para quem interagiu, que é o caso de quem comentou.
+      if (regra.exigirSeguidor) {
+        const segue = await segueVoce(ig, c.from?.id);
+        if (segue === false) {
+          const aviso = regra.avisoNaoSegue ||
+            'Oi! Esse material eu envio para quem me acompanha por aqui. Me segue e comenta de novo que eu te mando na hora. 💜';
+          const r = { tipo: 'comentario', regra: regra.nome, autor: c.username, texto: c.text, publica: null, direct: '[não segue] ' + aviso.split('\n')[0], em: new Date().toISOString(), erros: [] };
+          if (!dryRun) {
+            try {
+              await ig.privateReplyToComment(c.id, aviso);
+            } catch (err) {
+              r.erros.push(`aviso: ${err.message}`);
+            }
+            estado.comentarios[c.id] = { regra: regra.nome, em: r.em, naoSegue: true, erros: r.erros };
+            await espera(pausaMs);
+          }
+          acoes.push(dryRun ? { ...r, simulado: true } : r);
+          continue;
+        }
+      }
 
       const publica = sortear(regra.respostaPublica || config.respostaPublicaPadrao);
       const direct = regra.direct;

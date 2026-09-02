@@ -31,7 +31,7 @@
       "cartao": {
         "titulo": "Os 3 Segredos do Terapeuta de Alto Valor",
         "subtitulo": "Webinário ao vivo · 17/10, das 9h às 12h30",
-        "imagem": "https://simoneneurociencias.github.io/card-dm-v6.jpg",
+        "imagem": "https://simoneneurociencias.github.io/card-dm-v8.jpg",
         "url": "https://simoneneurociencias.github.io/",
         "botao": "Garantir minha vaga"
       }
@@ -45,7 +45,9 @@
         "livro",
         "guia"
       ],
-      "direct": "Oi! O guia é este aqui: COLE_O_LINK_DO_EBOOK\n\nLê com calma e me conta depois o que mais fez sentido pra você."
+      "direct": "Oi! O guia é este aqui: COLE_O_LINK_DO_EBOOK\n\nLê com calma e me conta depois o que mais fez sentido pra você.",
+      "exigirSeguidor": true,
+      "avisoNaoSegue": "Oi! Que bom que você quer. 💜\n\nEsse material eu envio para quem me acompanha por aqui. Me segue e comenta de novo no post que eu te mando na hora."
     },
     {
       "nome": "diagnostico",
@@ -55,7 +57,35 @@
         "diagnóstico",
         "teste"
       ],
-      "direct": "Oi! O diagnóstico de bloqueio de crescimento está aqui: COLE_O_LINK\n\nLeva uns 3 minutos e no fim você vê onde está a sua maior trava."
+      "direct": "Oi! O diagnóstico de bloqueio de crescimento está aqui: COLE_O_LINK\n\nLeva uns 3 minutos e no fim você vê onde está a sua maior trava.",
+      "exigirSeguidor": true,
+      "avisoNaoSegue": "Oi! Que bom que você quer. 💜\n\nEsse material eu envio para quem me acompanha por aqui. Me segue e comenta de novo no post que eu te mando na hora."
+    },
+    {
+      "nome": "audios",
+      "ativo": false,
+      "_porque_desligada": "Esperando os audios da isca e a pagina de entrega. Ligar em: painel > aba Regras.",
+      "palavras": [
+        "audios",
+        "áudios",
+        "audio",
+        "áudio",
+        "autohipnose",
+        "auto-hipnose"
+      ],
+      "respostaPublica": [
+        "Acabei de te enviar os áudios no direct. 💜",
+        "Te mandei no direct agora. 💜 Escuta com fone, se puder."
+      ],
+      "cartao": {
+        "titulo": "Áudios de autohipnose na minha voz",
+        "subtitulo": "Para dormir, acalmar e recomeçar",
+        "imagem": "https://simoneneurociencias.github.io/card-audios.jpg",
+        "url": "COLE_O_LINK_DA_PAGINA_DOS_AUDIOS",
+        "botao": "Ouvir agora"
+      },
+      "exigirSeguidor": true,
+      "avisoNaoSegue": "Oi! Que bom que você quer. 💜\n\nEsse material eu envio para quem me acompanha por aqui. Me segue e comenta de novo no post que eu te mando na hora."
     }
   ]
 }
