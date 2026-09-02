@@ -45,9 +45,25 @@
       "regra": "webinario",
       "em": "2026-09-01T01:23:43.762Z",
       "erros": []
+    },
+    "18093319793553115": {
+      "regra": "webinario",
+      "em": "2026-09-02T05:01:17.663Z",
+      "erros": [
+        "direct: Instagram API erro: An unknown error has occurred.",
+        "resposta pública não postada: o direct falhou antes"
+      ]
+    },
+    "18139512049513689": {
+      "regra": "webinario",
+      "em": "2026-09-02T05:01:21.282Z",
+      "erros": [
+        "direct: Instagram API erro: An unknown error has occurred.",
+        "resposta pública não postada: o direct falhou antes"
+      ]
     }
   },
   "conversas": {},
-  "execucoes": 19,
-  "ultimaExecucao": "2026-09-02T00:35:15.229Z"
+  "execucoes": 20,
+  "ultimaExecucao": "2026-09-02T05:01:26.765Z"
 }
