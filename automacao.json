@@ -5,7 +5,7 @@
   "janelaHoras": 48,
   "maxAcoesPorCiclo": 20,
   "pausaEntreAcoesMs": 1500,
-  "responderDirect": true,
+  "responderDirect": false,
   "ignorarUsuarios": [
     "sicarneironeurociencia"
   ],
@@ -34,7 +34,18 @@
         "imagem": "https://simoneneurociencias.github.io/card-dm-v8.jpg",
         "url": "https://simoneneurociencias.github.io/",
         "botao": "Garantir minha vaga"
-      }
+      },
+      "exigirSeguidor": true,
+      "convite": {
+        "titulo": "Que alegria você querer 💜",
+        "subtitulo": "Guardo esse acesso para quem caminha comigo por aqui.",
+        "botao": "Já estou seguindo"
+      },
+      "aindaNaoSegue": "Ainda não estou te vendo por aqui 💜 Toca em seguir e volta neste botão.",
+      "boasVindas": "Que bom te ver por aqui 💜 Aqui está, com todo o carinho:",
+      "origens": [
+        "comentario"
+      ]
     },
     {
       "nome": "ebook",
@@ -47,19 +58,37 @@
       ],
       "direct": "Oi! O guia é este aqui: COLE_O_LINK_DO_EBOOK\n\nLê com calma e me conta depois o que mais fez sentido pra você.",
       "exigirSeguidor": true,
-      "avisoNaoSegue": "Oi! Que bom que você quer. 💜\n\nEsse material eu envio para quem me acompanha por aqui. Me segue e comenta de novo no post que eu te mando na hora."
+      "convite": {
+        "titulo": "Que alegria você querer 💜",
+        "subtitulo": "Esse material eu preparo com carinho para quem caminha comigo por aqui.",
+        "botao": "Já estou seguindo"
+      },
+      "aindaNaoSegue": "Ainda não estou te vendo por aqui 💜 Toca em seguir e volta neste botão.",
+      "boasVindas": "Que bom te ver por aqui 💜 Aqui está, com todo o carinho:",
+      "origens": [
+        "comentario"
+      ]
     },
     {
       "nome": "diagnostico",
-      "ativo": false,
+      "ativo": true,
       "palavras": [
         "diagnostico",
         "diagnóstico",
         "teste"
       ],
-      "direct": "Oi! O diagnóstico de bloqueio de crescimento está aqui: COLE_O_LINK\n\nLeva uns 3 minutos e no fim você vê onde está a sua maior trava.",
+      "direct": "Oi! O diagnóstico de bloqueio de crescimento está aqui: https://simoneneurociencias.github.io/diagnostico/?isca=1\n\nLeva uns 3 minutos e no fim você vê onde está a sua maior trava.",
       "exigirSeguidor": true,
-      "avisoNaoSegue": "Oi! Que bom que você quer. 💜\n\nEsse material eu envio para quem me acompanha por aqui. Me segue e comenta de novo no post que eu te mando na hora."
+      "convite": {
+        "titulo": "Que alegria você querer 💜",
+        "subtitulo": "Esse material eu preparo com carinho para quem caminha comigo por aqui.",
+        "botao": "Já estou seguindo"
+      },
+      "aindaNaoSegue": "Ainda não estou te vendo por aqui 💜 Toca em seguir e volta neste botão.",
+      "boasVindas": "Que bom te ver por aqui 💜 Aqui está, com todo o carinho:",
+      "origens": [
+        "comentario"
+      ]
     },
     {
       "nome": "audios",
@@ -85,7 +114,40 @@
         "botao": "Ouvir agora"
       },
       "exigirSeguidor": true,
-      "avisoNaoSegue": "Oi! Que bom que você quer. 💜\n\nEsse material eu envio para quem me acompanha por aqui. Me segue e comenta de novo no post que eu te mando na hora."
+      "convite": {
+        "titulo": "Que alegria você querer 💜",
+        "subtitulo": "Esse material eu preparo com carinho para quem caminha comigo por aqui.",
+        "botao": "Já estou seguindo"
+      },
+      "aindaNaoSegue": "Ainda não estou te vendo por aqui 💜 Toca em seguir e volta neste botão.",
+      "boasVindas": "Que bom te ver por aqui 💜 Aqui está, com todo o carinho:",
+      "origens": [
+        "comentario"
+      ]
+    },
+    {
+      "palavras": [
+        "pack",
+        "tutorial",
+        "planos",
+        "tarefa",
+        "check",
+        "roteiro"
+      ],
+      "direct": "Oi! Aqui está o que você pediu 💜\n\nCOLE_O_LINK\n\nQualquer coisa me chama por aqui.",
+      "convite": {
+        "titulo": "Que alegria você querer 💜",
+        "subtitulo": "Guardo esse acesso para quem caminha comigo por aqui.",
+        "botao": "Já estou seguindo"
+      },
+      "aindaNaoSegue": "Ainda não estou te vendo por aqui 💜 Toca em seguir e volta neste botão.",
+      "boasVindas": "Que bom te ver por aqui 💜 Aqui está, com todo o carinho:",
+      "nome": "iscas",
+      "ativo": false,
+      "exigirSeguidor": true,
+      "origens": [
+        "comentario"
+      ]
     }
   ]
 }

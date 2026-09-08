@@ -65,7 +65,7 @@ export class IGLoginClient {
 
   async listMedia(limit = 10) {
     const d = await this.request('me/media', {
-      params: { fields: 'id,caption,media_type,permalink,timestamp,comments_count,like_count', limit },
+      params: { fields: 'id,caption,media_type,permalink,timestamp,comments_count,like_count,media_url,thumbnail_url', limit },
     });
     return d.data || [];
   }
