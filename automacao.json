@@ -35,7 +35,7 @@
         "url": "https://simoneneurociencias.github.io/",
         "botao": "Garantir minha vaga"
       },
-      "exigirSeguidor": true,
+      "exigirSeguidor": false,
       "convite": {
         "titulo": "Que alegria você querer 💜",
         "subtitulo": "Guardo esse acesso para quem caminha comigo por aqui.",
