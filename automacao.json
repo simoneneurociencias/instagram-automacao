@@ -17,7 +17,7 @@
   "regras": [
     {
       "nome": "webinario",
-      "ativo": true,
+      "ativo": false,
       "palavras": [
         "expansao",
         "expansão",
