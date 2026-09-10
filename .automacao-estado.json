@@ -61,9 +61,17 @@
         "direct: Instagram API erro: An unknown error has occurred.",
         "resposta pública não postada: o direct falhou antes"
       ]
+    },
+    "18099981965526702": {
+      "regra": "mapa",
+      "em": "2026-09-10T22:34:59.550Z",
+      "erros": [
+        "direct: Instagram API erro: An unknown error has occurred.",
+        "resposta pública não postada: o direct falhou antes"
+      ]
     }
   },
   "conversas": {},
-  "execucoes": 84,
-  "ultimaExecucao": "2026-09-10T20:11:01.070Z"
+  "execucoes": 85,
+  "ultimaExecucao": "2026-09-10T22:35:05.389Z"
 }
