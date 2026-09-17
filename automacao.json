@@ -8,8 +8,8 @@
   "maxAcoesPorDia": 120,
   "pausaEntreAcoesMinMs": 8000,
   "pausaEntreAcoesMaxMs": 25000,
-  "silencioDas": "23:00",
-  "silencioAte": "07:00",
+  "silencioDas": "02:00",
+  "silencioAte": "06:00",
   "responderDirect": false,
   "ignorarUsuarios": [
     "sicarneironeurociencia"
