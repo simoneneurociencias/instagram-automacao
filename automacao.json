@@ -4,7 +4,12 @@
   "conversasVerificadas": 15,
   "janelaHoras": 48,
   "maxAcoesPorCiclo": 20,
-  "pausaEntreAcoesMs": 1500,
+  "maxAcoesPorHora": 25,
+  "maxAcoesPorDia": 120,
+  "pausaEntreAcoesMinMs": 8000,
+  "pausaEntreAcoesMaxMs": 25000,
+  "silencioDas": "23:00",
+  "silencioAte": "07:00",
   "responderDirect": false,
   "ignorarUsuarios": [
     "sicarneironeurociencia"
@@ -23,7 +28,9 @@
         "expansão",
         "webinario",
         "webinário",
-        "vaga"
+        "vaga",
+        "padrao",
+        "padrão"
       ],
       "respostaPublica": [
         "Acabei de te enviar o acesso no direct. 💜 Agora é só garantir sua vaga!"

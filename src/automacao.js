@@ -107,8 +107,28 @@ export function salvarEstado(estado, caminho = CAMINHO_ESTADO) {
  */
 export async function rodarCiclo(ig, config, estado, { dryRun = false, log = console.log } = {}) {
   const janelaMs = (config.janelaHoras ?? 48) * 60 * 60 * 1000;
-  const limiteAcoes = config.maxAcoesPorCiclo ?? 20;
-  const pausaMs = config.pausaEntreAcoesMs ?? 1500;
+  const pausaMin = config.pausaEntreAcoesMinMs ?? 8000;
+  const pausaMax = config.pausaEntreAcoesMaxMs ?? 25000;
+  // Pausa sorteada: ritmo humano em vez de intervalo cravado.
+  const pausaMs = () => pausaMin + Math.floor(Math.random() * Math.max(0, pausaMax - pausaMin));
+
+  // Silêncio noturno: ninguém responde direct de madrugada.
+  if (!dryRun && dentroDoSilencio(config)) {
+    log(`🌙 Silêncio noturno (${config.silencioDas ?? '23:00'} às ${config.silencioAte ?? '07:00'}). Nada enviado.`);
+    return [];
+  }
+
+  // Tetos por hora e por dia, contados no histórico de envios reais.
+  const historico = (estado.historico || []).filter((t) => Date.now() - new Date(t).getTime() < 24 * 60 * 60 * 1000);
+  estado.historico = historico;
+  const usadasHora = historico.filter((t) => Date.now() - new Date(t).getTime() < 60 * 60 * 1000).length;
+  const restaHora = (config.maxAcoesPorHora ?? 25) - usadasHora;
+  const restaDia = (config.maxAcoesPorDia ?? 120) - historico.length;
+  const limiteAcoes = Math.min(config.maxAcoesPorCiclo ?? 20, restaHora, restaDia);
+  if (!dryRun && limiteAcoes <= 0) {
+    log(`🛑 Teto atingido (${usadasHora} na última hora, ${historico.length} nas últimas 24h). Nada enviado neste ciclo.`);
+    return [];
+  }
   const ignorar = (config.ignorarUsuarios || []).map((u) => u.toLowerCase().replace('@', ''));
   const agora = Date.now();
   const acoes = [];
@@ -157,7 +177,7 @@ export async function rodarCiclo(ig, config, estado, { dryRun = false, log = con
               r.erros.push(`aviso: ${err.message}`);
             }
             estado.comentarios[c.id] = { regra: regra.nome, em: r.em, naoSegue: true, erros: r.erros };
-            await espera(pausaMs);
+            await espera(pausaMs());
           }
           acoes.push(dryRun ? { ...r, simulado: true } : r);
           continue;
@@ -191,7 +211,7 @@ export async function rodarCiclo(ig, config, estado, { dryRun = false, log = con
         } catch (err) {
           resultado.erros.push(`direct: ${err.message}`);
         }
-        await espera(pausaMs);
+        await espera(pausaMs());
       }
       if (publica && (directOk || (!direct && !regra.cartao))) {
         try {
@@ -199,7 +219,7 @@ export async function rodarCiclo(ig, config, estado, { dryRun = false, log = con
         } catch (err) {
           resultado.erros.push(`resposta pública: ${err.message}`);
         }
-        await espera(pausaMs);
+        await espera(pausaMs());
       } else if (publica) {
         resultado.erros.push('resposta pública não postada: o direct falhou antes');
       }
@@ -249,13 +269,27 @@ export async function rodarCiclo(ig, config, estado, { dryRun = false, log = con
       }
       estado.conversas[chave] = { regra: regra.nome, em: resultado.em, erros: resultado.erros };
       acoes.push(resultado);
-      await espera(pausaMs);
+      await espera(pausaMs());
     }
   }
 
   estado.execucoes = (estado.execucoes || 0) + 1;
   estado.ultimaExecucao = new Date().toISOString();
+  // Registra os envios reais para os tetos do próximo ciclo.
+  for (const a of acoes) if (!a.simulado) estado.historico.push(new Date().toISOString());
+
   return acoes;
+}
+
+/** True quando o horário atual está dentro da faixa de silêncio noturno. */
+export function dentroDoSilencio(config, agora = new Date()) {
+  const das = config.silencioDas ?? '23:00';
+  const ate = config.silencioAte ?? '07:00';
+  if (!das || !ate) return false;
+  const min = (hhmm) => { const [h, m] = hhmm.split(':').map(Number); return h * 60 + (m || 0); };
+  const atual = agora.getHours() * 60 + agora.getMinutes();
+  const a = min(das), b = min(ate);
+  return a <= b ? atual >= a && atual < b : atual >= a || atual < b; // faixa que vira a meia-noite
 }
 
 /** Formata um ciclo para o terminal. */
