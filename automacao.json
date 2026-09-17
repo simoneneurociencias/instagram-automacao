@@ -17,7 +17,7 @@
   "regras": [
     {
       "nome": "webinario",
-      "ativo": false,
+      "ativo": true,
       "palavras": [
         "expansao",
         "expansão",
@@ -30,8 +30,8 @@
       ],
       "cartao": {
         "titulo": "Os 3 Segredos do Terapeuta de Alto Valor",
-        "subtitulo": "Webinário ao vivo · 17/10, das 9h às 12h30",
-        "imagem": "https://simoneneurociencias.github.io/card-dm-v8.jpg",
+        "subtitulo": "Webinário ao vivo · 7/11, das 9h às 12h30",
+        "imagem": "https://simoneneurociencias.github.io/card-dm-v9.jpg",
         "url": "https://simoneneurociencias.github.io/",
         "botao": "Garantir minha vaga"
       },
