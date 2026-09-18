@@ -69,10 +69,29 @@
         "direct: Instagram API erro: An unknown error has occurred.",
         "resposta pública não postada: o direct falhou antes"
       ]
+    },
+    "18114632513019618": {
+      "regra": "webinario",
+      "em": "2026-09-18T17:34:56.503Z",
+      "erros": [
+        "direct: Instagram API erro: An unknown error has occurred.",
+        "resposta pública não postada: o direct falhou antes"
+      ]
+    },
+    "17950731819260271": {
+      "regra": "webinario",
+      "em": "2026-09-18T17:35:10.167Z",
+      "erros": [
+        "direct: Instagram API erro: An unknown error has occurred.",
+        "resposta pública não postada: o direct falhou antes"
+      ]
     }
   },
   "conversas": {},
-  "execucoes": 136,
-  "ultimaExecucao": "2026-09-18T13:58:10.082Z",
-  "historico": []
+  "execucoes": 137,
+  "ultimaExecucao": "2026-09-18T17:35:27.651Z",
+  "historico": [
+    "2026-09-18T17:35:27.651Z",
+    "2026-09-18T17:35:27.651Z"
+  ]
 }
