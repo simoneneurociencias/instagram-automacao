@@ -9,7 +9,9 @@
   },
   "scripts": {
     "ig": "node src/cli.js",
-    "painel": "node src/cli.js painel"
+    "painel": "node src/cli.js painel",
+    "conferir": "node conferir.mjs",
+    "publicar": "node publicar-tudo.mjs"
   },
   "engines": {
     "node": ">=20"
