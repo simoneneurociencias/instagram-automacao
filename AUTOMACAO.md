@@ -209,3 +209,23 @@ Se precisar renovar o `ACCESS_TOKEN` da via antiga: o Graph API Explorer costuma
 escopos na URL e `redirect_uri=https://simoneneurociencias.github.io/` (a Meta não aceita
 mais URLs do facebook.com como retorno). O token volta na barra de endereço depois de
 `access_token=`, e aí é só passar para `exchange-token`.
+
+## Saúde e avisos (desde 18/09/2026)
+
+O Worker cuida de si mesmo no cron diário (6h UTC / 3h de Brasília):
+
+1. renova o token do Instagram antes de vencer;
+2. confere se o app segue inscrito em `comments` e **reinscreve sozinho** se cair;
+3. guarda o resultado e, havendo problema, manda um e-mail (no máximo um por dia).
+
+**Página de saúde:** https://instagram-automacao.simonecarneiro.workers.dev/saude
+`?agora=1` verifica na hora; `?teste=1` dispara um aviso de mentira para conferir o e-mail.
+
+O e-mail sai por um Apps Script da Simone (código em `webhook/alerta-apps-script.gs`),
+cadastrado no Worker como segredo `ALERTA_URL`. Para trocar o destinatário, editar
+`var PARA` no script e republicar a implantação.
+
+**O que ainda exige a mão dela:** trocar a senha do Instagram invalida o acesso na hora
+e nenhuma renovação automática resolve; é preciso reautorizar pelo diálogo de OAuth.
+
+Conferência local das três cópias das regras: `npm run conferir`. Publicação completa: `npm run publicar`.
