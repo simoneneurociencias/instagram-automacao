@@ -49,6 +49,34 @@
       ]
     },
     {
+      "nome": "calma",
+      "ativo": true,
+      "palavras": [
+        "calma"
+      ],
+      "respostaPublica": [
+        "Te mandei o áudio no direct. 💜 Ouve com fone, antes de atender."
+      ],
+      "cartao": {
+        "titulo": "Áudio CALMA · antes de atender",
+        "subtitulo": "12 minutos para desligar o alarme da mente",
+        "imagem": "https://ig-midia.simonecarneiro.workers.dev/calma/og-calma.jpg",
+        "url": "https://lp.selfcreation.com.br/calma/?origem=instagram",
+        "botao": "Ouvir o áudio"
+      },
+      "exigirSeguidor": true,
+      "convite": {
+        "titulo": "Que bom que você quer o áudio 💜",
+        "subtitulo": "Guardo esse presente para quem caminha comigo por aqui.",
+        "botao": "Já estou seguindo"
+      },
+      "aindaNaoSegue": "Ainda não estou te vendo por aqui 💜 Toca em seguir e volta neste botão.",
+      "boasVindas": "Que bom te ver por aqui 💜 Aqui está o seu áudio:",
+      "origens": [
+        "comentario"
+      ]
+    },
+    {
       "nome": "webinario",
       "ativo": true,
       "palavras": [
