@@ -43,8 +43,20 @@ export function casaPalavra(textoNormalizado, palavra) {
   return new RegExp(`(^|\\s)${escapado}(\\s|$)`).test(textoNormalizado);
 }
 
+/** A legenda do post chama para a palavra? ("Comenta PADRÃO", "Comente DIAGNÓSTICO") */
+function legendaChama(legenda, palavras) {
+  const n = normalizar(legenda);
+  if (!n) return false;
+  return (palavras || []).some((p) => {
+    const alvo = normalizar(p);
+    if (!alvo) return false;
+    const escapado = alvo.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    return new RegExp(`(^|\\s)comen(ta|te)\\s+${escapado}(\\s|$)`).test(n);
+  });
+}
+
 /** Primeira regra ativa cujo gatilho aparece no texto. */
-export function acharRegra(regras, texto, { mediaId = null, origem = 'comentario' } = {}) {
+export function acharRegra(regras, texto, { mediaId = null, origem = 'comentario', legenda = '' } = {}) {
   const normalizado = normalizar(texto);
   if (!normalizado) return null;
   for (const regra of regras) {
@@ -52,6 +64,15 @@ export function acharRegra(regras, texto, { mediaId = null, origem = 'comentario
     if (regra.origens && !regra.origens.includes(origem)) continue;
     if (Array.isArray(regra.midias) && mediaId && !regra.midias.includes(mediaId)) continue;
     if ((regra.palavras || []).some((p) => casaPalavra(normalizado, p))) return regra;
+  }
+  if (!mediaId || !legenda) return null;
+  // 2ª passada (porLegenda, Simone 14/10/2026): post fora da lista `midias`, mas cuja
+  // legenda diz "Comenta PALAVRA" de uma palavra da regra. Post novo com CTA responde
+  // sozinho, sem ninguém precisar ligar o post à regra.
+  for (const regra of regras) {
+    if (regra.ativo === false || !regra.porLegenda) continue;
+    if (regra.origens && !regra.origens.includes(origem)) continue;
+    if (legendaChama(legenda, regra.palavras) && (regra.palavras || []).some((p) => casaPalavra(normalizado, p))) return regra;
   }
   return null;
 }
@@ -159,7 +180,7 @@ export async function rodarCiclo(ig, config, estado, { dryRun = false, log = con
       const autor = (c.username || '').toLowerCase();
       if (ignorar.includes(autor)) continue;
 
-      const regra = acharRegra(config.regras, c.text, { mediaId: post.id, origem: 'comentario' });
+      const regra = acharRegra(config.regras, c.text, { mediaId: post.id, origem: 'comentario', legenda: post.caption || '' });
       if (!regra) continue;
 
       // Gate de seguidor: algumas iscas só são liberadas para quem já segue.

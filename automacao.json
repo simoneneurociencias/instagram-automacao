@@ -38,7 +38,7 @@
         "url": "https://wa.me/5521972511809?text=Ol%C3%A1%2C%20Simone!%20Vim%20do%20Instagram%20e%20quero%20a%20consulta%20diagn%C3%B3stica%20gratuita.",
         "botao": "Agendar consulta"
       },
-      "exigirSeguidor": false,
+      "exigirSeguidor": true,
       "origens": [
         "comentario"
       ],
@@ -46,7 +46,18 @@
         "18098960093543858",
         "18061288535562812",
         "18116540395967163"
-      ]
+      ],
+      "porLegenda": true,
+      "perguntarSempre": true,
+      "convite": {
+        "titulo": "Sua consulta te espera 💛",
+        "subtitulo": "Presente para quem me acompanha. Já me segue?",
+        "botaoSeguir": "Seguir",
+        "botao": "Já te sigo ✓",
+        "perfil": "https://www.instagram.com/sicarneironeurociencia/"
+      },
+      "aindaNaoSegue": "Toca em Seguir e depois em Já te sigo 💛",
+      "boasVindas": "Que bom ter você aqui! Escolhe seu horário 💛"
     },
     {
       "nome": "calma",
@@ -58,23 +69,25 @@
         "Te mandei o áudio no direct. 💜 Ouve com fone, antes de fazer a sua oferta."
       ],
       "cartao": {
-        "titulo": "Áudio CALMA · antes da oferta",
-        "subtitulo": "10 minutos para fazer a sua oferta com calma e segurança",
+        "titulo": "Seu áudio CALMA 🎧",
         "imagem": "https://ig-midia.simonecarneiro.workers.dev/calma/og-calma.jpg",
         "url": "https://lp.selfcreation.com.br/calma/?origem=instagram",
-        "botao": "Ouvir o áudio"
+        "botao": "Ouvir agora"
       },
       "exigirSeguidor": true,
       "convite": {
-        "titulo": "Que bom que você quer o áudio 💜",
-        "subtitulo": "Guardo esse presente para quem caminha comigo por aqui.",
-        "botao": "Já estou seguindo"
+        "titulo": "Seu áudio CALMA te espera 💛",
+        "subtitulo": "Presente para quem me acompanha. Já me segue?",
+        "botaoSeguir": "Seguir",
+        "botao": "Já te sigo ✓",
+        "perfil": "https://www.instagram.com/sicarneironeurociencia/"
       },
-      "aindaNaoSegue": "Ainda não estou te vendo por aqui 💜 Toca em seguir e volta neste botão.",
-      "boasVindas": "Que bom te ver por aqui 💜 Aqui está o seu áudio:",
+      "aindaNaoSegue": "Toca em Seguir e depois em Já te sigo 💛",
+      "boasVindas": "Que bom ter você aqui! Coloca o fone 💛",
       "origens": [
         "comentario"
-      ]
+      ],
+      "perguntarSempre": true
     },
     {
       "nome": "webinario",
@@ -173,18 +186,22 @@
         "18097702651840566",
         "18177258634390169"
       ],
-      "direct": "Oi! O diagnóstico de bloqueio de crescimento está aqui: https://lp.selfcreation.com.br/diagnostico/?isca=1\n\nLeva uns 3 minutos e no fim você vê onde está a sua maior trava.",
-      "exigirSeguidor": false,
+      "direct": "O diagnóstico de bloqueio de crescimento está aqui: https://lp.selfcreation.com.br/diagnostico/?isca=1\n\nLeva uns 3 minutos e no fim você vê onde está a sua maior trava.",
+      "exigirSeguidor": true,
       "convite": {
-        "titulo": "Que alegria você querer 💜",
-        "subtitulo": "Esse material eu preparo com carinho para quem caminha comigo por aqui.",
-        "botao": "Já estou seguindo"
+        "titulo": "Seu diagnóstico te espera 💛",
+        "subtitulo": "Presente para quem me acompanha. Já me segue?",
+        "botaoSeguir": "Seguir",
+        "botao": "Já te sigo ✓",
+        "perfil": "https://www.instagram.com/sicarneironeurociencia/"
       },
-      "aindaNaoSegue": "Ainda não estou te vendo por aqui 💜 Toca em seguir e volta neste botão.",
-      "boasVindas": "Que bom te ver por aqui 💜 Aqui está, com todo o carinho:",
+      "aindaNaoSegue": "Toca em Seguir e depois em Já te sigo 💛",
+      "boasVindas": "Que bom ter você aqui! Responde com sinceridade 💛",
       "origens": [
         "comentario"
-      ]
+      ],
+      "porLegenda": true,
+      "perguntarSempre": true
     },
     {
       "nome": "audios",
