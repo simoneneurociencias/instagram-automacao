@@ -57,7 +57,13 @@
         "perfil": "https://www.instagram.com/sicarneironeurociencia/"
       },
       "aindaNaoSegue": "Toca em Seguir e depois em Já te sigo 💛",
-      "boasVindas": "Que bom ter você aqui! Escolhe seu horário 💛"
+      "boasVindas": "Que bom ter você aqui! Escolhe seu horário 💛",
+      "acompanhamento": {
+        "pergunta": "Oi! Passando para saber: deu tudo certo para agendar a sua consulta? 💛",
+        "resposta": "Obrigada por responder 💛 Se já agendou, até lá! Se ficou alguma dúvida, é só tocar no botão. A consulta segue gratuita até {fimDoMes}.",
+        "botao": "Falar com a Simone",
+        "url": "https://wa.me/5521972511809?text=Ol%C3%A1%2C%20Simone!%20Vim%20do%20Instagram%20e%20quero%20a%20consulta%20diagn%C3%B3stica%20gratuita."
+      }
     },
     {
       "nome": "calma",
@@ -87,7 +93,13 @@
       "origens": [
         "comentario"
       ],
-      "perguntarSempre": true
+      "perguntarSempre": true,
+      "acompanhamento": {
+        "pergunta": "Oi! Passando para saber: como foi ouvir o áudio CALMA? 💛",
+        "resposta": "Obrigada por responder 💛 O áudio acalma na hora. A trava por trás da tensão, a gente olha com calma na consulta diagnóstica gratuita.",
+        "botao": "Agendar consulta",
+        "url": "https://wa.me/5521972511809?text=Ol%C3%A1%2C%20Simone!%20Vim%20do%20Instagram%20e%20quero%20a%20consulta%20diagn%C3%B3stica%20gratuita."
+      }
     },
     {
       "nome": "webinario",
@@ -201,7 +213,18 @@
         "comentario"
       ],
       "porLegenda": true,
-      "perguntarSempre": true
+      "perguntarSempre": true,
+      "botaoFinal": {
+        "texto": "Que bom ter você aqui! 💛 Responde com sinceridade: acesse o diagnóstico no botão abaixo. Leva uns 3 minutos e, no fim, você vê onde está a sua maior trava.",
+        "botao": "Acessar diagnóstico",
+        "url": "https://lp.selfcreation.com.br/diagnostico/?isca=1"
+      },
+      "acompanhamento": {
+        "pergunta": "Oi! Passando para saber como foi. Já descobriu onde você trava no seu crescimento? 💛",
+        "resposta": "Obrigada por responder 💛 Saber onde está a trava é o primeiro passo. Entender de onde ela vem é o próximo, na consulta diagnóstica gratuita até {fimDoMes}.",
+        "botao": "Agendar consulta",
+        "url": "https://wa.me/5521972511809?text=Ol%C3%A1%2C%20Simone!%20Vim%20do%20Instagram%20e%20quero%20a%20consulta%20diagn%C3%B3stica%20gratuita."
+      }
     },
     {
       "nome": "audios",
