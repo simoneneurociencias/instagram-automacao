@@ -75,10 +75,10 @@
         "Te mandei o áudio no direct. 💜 Ouve com fone, antes de fazer a sua oferta."
       ],
       "cartao": {
-        "titulo": "Seu áudio CALMA 🎧",
+        "titulo": "Seu Áudio CALMA 🎧",
         "imagem": "https://ig-midia.simonecarneiro.workers.dev/calma/og-calma.jpg",
-        "url": "https://lp.selfcreation.com.br/calma/?origem=instagram",
-        "botao": "Ouvir agora"
+        "url": "https://lp.selfcreation.com.br/comece/?origem=comenta-calma",
+        "botao": "Receber meu áudio"
       },
       "exigirSeguidor": true,
       "convite": {
@@ -284,6 +284,44 @@
       "origens": [
         "comentario"
       ]
+    },
+    {
+      "nome": "boasvindas-diagnostico",
+      "ativo": true,
+      "_porque": "Simone 14/10/2026: só para quem recebeu dela, à mão, a boas-vindas que termina em \"diagnóstico ou conversa?\" (o Worker vê o eco e marca a pessoa por 7 dias). Quem recebeu a do ManyChat não entra. Cada opção sai uma vez. soPalavra: resposta de até 5 palavras.",
+      "palavras": [
+        "diagnostico",
+        "diagnóstico"
+      ],
+      "origens": [
+        "direct"
+      ],
+      "soPalavra": true,
+      "botaoFinal": {
+        "texto": "Que bom! Aqui está o seu diagnóstico gratuito: ele mostra se o seu potencial de crescimento está travado e o que está segurando o seu faturamento. 🚀\n\nLeva só 2 minutos.",
+        "botao": "Fazer o diagnóstico",
+        "url": "https://lp.selfcreation.com.br/diagnostico/?faixa=1&origem=novoseguidor"
+      },
+      "depoisDe": "diagnóstico ou conversa"
+    },
+    {
+      "nome": "boasvindas-conversa",
+      "ativo": true,
+      "_porque": "Par da boasvindas-diagnostico: resposta \"conversa\" no direct recebe o texto e o botão do ManyChat.",
+      "palavras": [
+        "conversa",
+        "conversar"
+      ],
+      "origens": [
+        "direct"
+      ],
+      "soPalavra": true,
+      "botaoFinal": {
+        "texto": "Aqui está o seu presente: uma conversa gratuita comigo. 💛\n\nEu trabalho com ansiedade, fobias, insônia, autolesão, relacionamentos, finanças, síndrome do impostor, procrastinação e muito mais.\n\nSe algo está pesando na sua vida hoje, me chama no WhatsApp.",
+        "botao": "Quero conversar",
+        "url": "https://wa.me/5521972511809?text=Ol%C3%A1%2C%20Simone!%20Vim%20do%20Instagram%20e%20quero%20a%20conversa%20gratuita."
+      },
+      "depoisDe": "diagnóstico ou conversa"
     }
   ]
 }
