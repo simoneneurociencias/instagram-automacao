@@ -194,10 +194,20 @@
         "url": "https://lp.selfcreation.com.br/comece/?origem=comenta-comece",
         "botao": "Quero começar"
       },
-      "exigirSeguidor": false,
+      "exigirSeguidor": true,
       "origens": [
         "comentario"
-      ]
+      ],
+      "convite": {
+        "titulo": "Seu próximo passo te espera 💛",
+        "subtitulo": "Liberado para quem me acompanha. Já me segue?",
+        "botaoSeguir": "Seguir",
+        "botao": "Já te sigo ✓",
+        "perfil": "https://www.instagram.com/sicarneironeurociencia/"
+      },
+      "aindaNaoSegue": "Toca em Seguir e depois em Já te sigo 💛",
+      "boasVindas": "Agora sim, a gente começa por aqui 💛",
+      "perguntarSempre": true
     },
     {
       "nome": "ebook",
