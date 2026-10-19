@@ -69,20 +69,22 @@
       "nome": "calma",
       "ativo": true,
       "palavras": [
-        "calma"
+        "calma",
+        "confia",
+        "confianca"
       ],
       "respostaPublica": [
         "Te mandei o áudio no direct. 💜 Ouve com fone, antes de fazer a sua oferta."
       ],
       "cartao": {
-        "titulo": "Seu Áudio CALMA 🎧",
+        "titulo": "Seu áudio Confiança na Oferta 🎧",
         "imagem": "https://ig-midia.simonecarneiro.workers.dev/calma/og-calma.jpg",
         "url": "https://lp.selfcreation.com.br/comece/?origem=comenta-calma",
         "botao": "Receber meu áudio"
       },
       "exigirSeguidor": true,
       "convite": {
-        "titulo": "Seu áudio CALMA te espera 💛",
+        "titulo": "Seu áudio Confiança na Oferta te espera 💛",
         "subtitulo": "Presente para quem me acompanha. Já me segue?",
         "botaoSeguir": "Seguir",
         "botao": "Já te sigo ✓",
