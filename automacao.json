@@ -19,6 +19,22 @@
     "Te respondi no direct, dá uma olhada lá 💜",
     "Enviado no seu direct 💜"
   ],
+  "botaoPorFrase": [
+    {
+      "_porque": "Simone 19/10/2026: ela manda à mão a resposta de reserva \"Que bom que você topou... Me chama no WhatsApp que a gente combina o melhor horário\" e o Worker manda o botão logo embaixo (uma vez a cada 10 min por pessoa).",
+      "frase": "me chama no WhatsApp que a gente combina",
+      "texto": "Segue o botão do meu WhatsApp 👇",
+      "botao": "Quero conversar",
+      "url": "https://wa.me/5521972511809?text=Ol%C3%A1%2C%20Simone!%20Vim%20do%20Instagram%20e%20quero%20a%20conversa%20gratuita."
+    },
+    {
+      "_porque": "Simone 19/10/2026: par da reserva do diagnóstico (\"Que bom! Aqui está o seu diagnóstico. Responde com calma. Quando terminar, me conta aqui...\"), mandada sem link.",
+      "frase": "quando terminar, me conta aqui",
+      "texto": "Leva só 2 minutos 👇",
+      "botao": "Fazer o diagnóstico",
+      "url": "https://lp.selfcreation.com.br/diagnostico/?faixa=1&origem=novoseguidor"
+    }
+  ],
   "regras": [
     {
       "nome": "consulta",
@@ -163,6 +179,27 @@
       ]
     },
     {
+      "nome": "comece",
+      "ativo": true,
+      "palavras": [
+        "comece"
+      ],
+      "respostaPublica": [
+        "Te mandei no direct o caminho para o seu próximo passo. Abre lá 💜",
+        "Já está no seu direct: 3 perguntas rápidas e o seu próximo passo, confere lá 💜",
+        "Que bom ter você aqui, o seu próximo passo já está no direct 💜"
+      ],
+      "cartao": {
+        "titulo": "Que bom ter você aqui 💜 3 perguntas rápidas e o seu próximo passo",
+        "url": "https://lp.selfcreation.com.br/comece/?origem=comenta-comece",
+        "botao": "Quero começar"
+      },
+      "exigirSeguidor": false,
+      "origens": [
+        "comentario"
+      ]
+    },
+    {
       "nome": "ebook",
       "ativo": false,
       "palavras": [
@@ -287,7 +324,7 @@
     {
       "nome": "boasvindas-diagnostico",
       "ativo": true,
-      "_porque": "Simone 14/10/2026: só para quem recebeu dela, à mão, a boas-vindas que termina em \"diagnóstico ou conversa?\" (o Worker vê o eco e marca a pessoa por 7 dias). Quem recebeu a do ManyChat não entra. Cada opção sai uma vez. soPalavra: resposta de até 5 palavras.",
+      "_porque": "Simone 14/10/2026: só para quem recebeu dela, à mão, a boas-vindas que termina em \"diagnóstico ou conversa?\" (o Worker vê o eco e marca a pessoa por 7 dias). Quem recebeu a do ManyChat não entra. Cada opção sai uma vez. Desde 19/10/2026 reconhece a palavra no meio da frase (\"quero conversa, pode ser agora?\"); se citar as duas opções, ninguém responde e fica com ela.",
       "palavras": [
         "diagnostico",
         "diagnóstico"
@@ -295,7 +332,6 @@
       "origens": [
         "direct"
       ],
-      "soPalavra": true,
       "botaoFinal": {
         "texto": "Que bom! Aqui está o seu diagnóstico gratuito: ele mostra se o seu potencial de crescimento está travado e o que está segurando o seu faturamento. 🚀\n\nLeva só 2 minutos.",
         "botao": "Fazer o diagnóstico",
@@ -314,7 +350,6 @@
       "origens": [
         "direct"
       ],
-      "soPalavra": true,
       "botaoFinal": {
         "texto": "Aqui está o seu presente: uma conversa gratuita comigo. 💛\n\nEu trabalho com ansiedade, fobias, insônia, autolesão, relacionamentos, finanças, síndrome do impostor, procrastinação e muito mais.\n\nSe algo está pesando na sua vida hoje, me chama no WhatsApp.",
         "botao": "Quero conversar",
