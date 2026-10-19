@@ -93,13 +93,7 @@
       "origens": [
         "comentario"
       ],
-      "perguntarSempre": true,
-      "acompanhamento": {
-        "pergunta": "Oi! Passando para saber: como foi ouvir o áudio CALMA? 💛",
-        "resposta": "Obrigada por responder 💛 O áudio acalma na hora. A trava por trás da tensão, a gente olha com calma na consulta diagnóstica gratuita.",
-        "botao": "Agendar consulta",
-        "url": "https://wa.me/5521972511809?text=Ol%C3%A1%2C%20Simone!%20Vim%20do%20Instagram%20e%20quero%20a%20consulta%20diagn%C3%B3stica%20gratuita."
-      }
+      "perguntarSempre": true
     },
     {
       "nome": "webinario",
