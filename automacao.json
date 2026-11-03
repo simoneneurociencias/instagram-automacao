@@ -37,6 +37,41 @@
   ],
   "regras": [
     {
+      "nome": "consulta-bio-consulta",
+      "ativo": true,
+      "palavras": [
+        "consulta"
+      ],
+      "respostaPublica": [
+        "Enviei o acesso no seu direct. 💛"
+      ],
+      "permissao": {
+        "titulo": "Vi que você comentou CONSULTA",
+        "subtitulo": "Quer receber agora o caminho para fazer a sua análise diagnóstica?",
+        "botao": "Quero a consulta"
+      },
+      "cartao": {
+        "titulo": "Comece a sua análise diagnóstica",
+        "subtitulo": "As perguntas mudam de acordo com o seu momento.",
+        "url": "https://lp.selfcreation.com.br/bio/?origem=comenta-consulta",
+        "botao": "Começar minha análise"
+      },
+      "acompanhamento": {
+        "pergunta": "Oi! Você conseguiu responder às perguntas da sua análise diagnóstica? 💛",
+        "resposta": "Obrigada por responder 💛 Se ainda não concluiu, seu acesso continua aqui. A consulta diagnóstica está gratuita até {fimDoMes} para quem passa pelo perfil indicado na página.",
+        "botao": "Continuar minha análise",
+        "url": "https://lp.selfcreation.com.br/bio/?origem=comenta-consulta"
+      },
+      "exigirSeguidor": false,
+      "origens": [
+        "comentario"
+      ],
+      "midias": [
+        "18502395418103503"
+      ],
+      "porLegenda": true
+    },
+    {
       "nome": "consulta",
       "ativo": true,
       "palavras": [
