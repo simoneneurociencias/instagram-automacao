@@ -46,9 +46,9 @@
         "Enviei o acesso no seu direct. 💛"
       ],
       "permissao": {
-        "titulo": "Vi que você comentou CONSULTA",
-        "subtitulo": "Quer receber agora o caminho para fazer a sua análise diagnóstica?",
-        "botao": "Quero a consulta"
+        "titulo": "Sua consulta diagnóstica começa aqui",
+        "subtitulo": "Toque no botão e agende seu horário. Vagas limitadas.",
+        "botao": "Começar agora"
       },
       "cartao": {
         "titulo": "Comece a sua análise diagnóstica",
