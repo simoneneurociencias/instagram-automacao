@@ -45,16 +45,11 @@
       "respostaPublica": [
         "Enviei o acesso no seu direct. 💛"
       ],
-      "permissao": {
+      "cartao": {
         "titulo": "Sua consulta diagnóstica começa aqui",
         "subtitulo": "Toque no botão e agende seu horário. Vagas limitadas.",
-        "botao": "Começar agora"
-      },
-      "cartao": {
-        "titulo": "Comece a sua análise diagnóstica",
-        "subtitulo": "As perguntas mudam de acordo com o seu momento.",
         "url": "https://lp.selfcreation.com.br/bio/?origem=comenta-consulta",
-        "botao": "Começar minha análise"
+        "botao": "Começar agora"
       },
       "acompanhamento": {
         "pergunta": "Oi! Você conseguiu responder às perguntas da sua análise diagnóstica? 💛",
@@ -69,7 +64,8 @@
       "midias": [
         "18502395418103503"
       ],
-      "porLegenda": true
+      "porLegenda": true,
+      "_porque": "Simone 05/11/2026: sem a etapa de permissão; o primeiro botão (Começar agora) já abre a /bio/."
     },
     {
       "nome": "consulta",
@@ -368,8 +364,8 @@
     },
     {
       "nome": "boasvindas-diagnostico",
-      "ativo": true,
-      "_porque": "Simone 14/10/2026: só para quem recebeu dela, à mão, a boas-vindas que termina em \"diagnóstico ou conversa?\" (o Worker vê o eco e marca a pessoa por 7 dias). Quem recebeu a do ManyChat não entra. Cada opção sai uma vez. Desde 19/10/2026 reconhece a palavra no meio da frase (\"quero conversa, pode ser agora?\"); se citar as duas opções, ninguém responde e fica com ela.",
+      "ativo": false,
+      "_porque": "Simone 14/10/2026: só para quem recebeu dela, à mão, a boas-vindas que termina em \"diagnóstico ou conversa?\" (o Worker vê o eco e marca a pessoa por 7 dias). Quem recebeu a do ManyChat não entra. Cada opção sai uma vez. Desde 19/10/2026 reconhece a palavra no meio da frase (\"quero conversa, pode ser agora?\"); se citar as duas opções, ninguém responde e fica com ela. DESLIGADA 04/11/2026: a boas-vindas passou a oferecer a consulta (regra boasvindas-consulta).",
       "palavras": [
         "diagnostico",
         "diagnóstico"
@@ -386,8 +382,8 @@
     },
     {
       "nome": "boasvindas-conversa",
-      "ativo": true,
-      "_porque": "Par da boasvindas-diagnostico: resposta \"conversa\" no direct recebe o texto e o botão do ManyChat.",
+      "ativo": false,
+      "_porque": "Par da boasvindas-diagnostico: resposta \"conversa\" no direct recebe o texto e o botão do ManyChat. DESLIGADA 04/11/2026: a boas-vindas passou a oferecer a consulta (regra boasvindas-consulta).",
       "palavras": [
         "conversa",
         "conversar"
@@ -401,6 +397,23 @@
         "url": "https://wa.me/5521972511809?text=Ol%C3%A1%2C%20Simone!%20Vim%20do%20Instagram%20e%20quero%20a%20conversa%20gratuita."
       },
       "depoisDe": "diagnóstico ou conversa"
+    },
+    {
+      "nome": "boasvindas-consulta",
+      "ativo": true,
+      "_porque": "Simone 04/11/2026: boas-vindas manual oferece a consulta diagnóstica e termina em \"responde QUERO aqui\" (o Worker vê o eco e marca a pessoa por 7 dias). Quem responde quero recebe o cartão com o botão da /bio/, uma vez só.",
+      "palavras": [
+        "quero"
+      ],
+      "origens": [
+        "direct"
+      ],
+      "botaoFinal": {
+        "texto": "Aqui está o seu presente 🎁 Toca no botão, escolhe o seu caminho e agenda a sua consulta, gratuita até {fimDoMes}.",
+        "botao": "Quero minha consulta",
+        "url": "https://lp.selfcreation.com.br/bio/?origem=novoseguidor"
+      },
+      "depoisDe": "responde QUERO aqui"
     }
   ]
 }
