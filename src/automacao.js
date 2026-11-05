@@ -51,7 +51,8 @@ function legendaChama(legenda, palavras) {
     const alvo = normalizar(p);
     if (!alvo) return false;
     const escapado = alvo.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-    return new RegExp(`(^|\\s)comen(ta|te)\\s+${escapado}(\\s|$)`).test(n);
+    // Igual ao Worker (auditoria 05/11/2026): comenta/escreva/digite/deixe + até 4 palavras no meio.
+    return new RegExp(`(^|\\s)(comen(ta|te|tem)|escrev(a|e|am)|digit(a|e|em)|deix(a|e|em))\\s+(\\S+\\s+){0,4}${escapado}(\\s|$)`).test(n);
   });
 }
 
