@@ -49,7 +49,9 @@
         "18118028014943664"
       ],
       "respostaPublica": [
-        "Enviei o acesso no seu direct. 💛"
+        "Te enviei um presente! 🎁 Olhe as suas mensagens aqui no Instagram.",
+        "Enviei um presente no seu direct 🎁 Dá uma olhada lá!",
+        "Enviei um presente nas suas mensagens 🎁"
       ],
       "exigirSeguidor": true,
       "convite": {
@@ -253,7 +255,10 @@
       "exigirSeguidor": false,
       "origens": [
         "comentario"
-      ]
+      ],
+      "midias": [],
+      "porLegenda": true,
+      "_porque": "Simone 05/11/2026: só responde em post cuja legenda pede a palavra (midias vazio + porLegenda); antes respondia em qualquer post."
     },
     {
       "nome": "comece",
@@ -284,7 +289,10 @@
       },
       "aindaNaoSegue": "Toca em Seguir e depois em Já te sigo 💛",
       "boasVindas": "Agora sim, a gente começa por aqui 💛",
-      "perguntarSempre": true
+      "perguntarSempre": true,
+      "midias": [],
+      "porLegenda": true,
+      "_porque": "Simone 05/11/2026: só responde em post cuja legenda pede a palavra (midias vazio + porLegenda); antes respondia em qualquer post."
     },
     {
       "nome": "ebook",
