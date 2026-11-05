@@ -187,7 +187,10 @@
       "origens": [
         "comentario"
       ],
-      "perguntarSempre": true
+      "perguntarSempre": true,
+      "midias": [],
+      "porLegenda": true,
+      "_porque": "Simone 05/11/2026: só responde em post cuja legenda pede CALMA/CONFIA/CONFIANÇA (midias vazio + porLegenda); antes respondia em qualquer post."
     },
     {
       "nome": "webinario",
