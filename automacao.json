@@ -37,6 +37,42 @@
   ],
   "regras": [
     {
+      "nome": "reels-fases-terapia",
+      "ativo": true,
+      "_porque": "Simone 05/11/2026: Reels do Imagine Dragons (Todo processo terapêutico tem fases, 13/09, 11 mil curtidas). Qualquer comentário recebe o diagnóstico; quem não segue recebe antes Já me segue?. Curtida não dá: a API não informa quem curtiu.",
+      "palavras": [],
+      "qualquerComentario": true,
+      "origens": [
+        "comentario"
+      ],
+      "midias": [
+        "18118028014943664"
+      ],
+      "respostaPublica": [
+        "Enviei o acesso no seu direct. 💛"
+      ],
+      "exigirSeguidor": true,
+      "convite": {
+        "titulo": "Seu diagnóstico te espera 💛",
+        "subtitulo": "Presente para quem me acompanha. Já me segue?",
+        "botaoSeguir": "Seguir",
+        "botao": "Já te sigo ✓",
+        "perfil": "https://www.instagram.com/sicarneironeurociencia/"
+      },
+      "aindaNaoSegue": "Toca em Seguir e depois em Já te sigo 💛",
+      "botaoFinal": {
+        "texto": "Que bom ter você aqui! 💛 Responde com sinceridade: acesse o diagnóstico no botão abaixo. Leva uns 3 minutos e, no fim, você vê onde está a sua maior trava.",
+        "botao": "Acessar diagnóstico",
+        "url": "https://lp.selfcreation.com.br/diagnostico/?isca=1&origem=reels-fases-terapia"
+      },
+      "acompanhamento": {
+        "pergunta": "Oi! Passando para saber como foi. Já descobriu onde você trava no seu crescimento? 💛",
+        "resposta": "Obrigada por responder 💛 Saber onde está a trava é o primeiro passo. Entender de onde ela vem é o próximo, na consulta diagnóstica gratuita até {fimDoMes}.",
+        "botao": "Agendar consulta",
+        "url": "https://wa.me/5521972511809?text=Ol%C3%A1%2C%20Simone!%20Vim%20do%20Instagram%20e%20quero%20a%20consulta%20diagn%C3%B3stica%20gratuita."
+      }
+    },
+    {
       "nome": "consulta-bio-consulta",
       "ativo": true,
       "palavras": [
