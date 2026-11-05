@@ -57,7 +57,7 @@
         "botao": "Continuar minha análise",
         "url": "https://lp.selfcreation.com.br/bio/?origem=comenta-consulta"
       },
-      "exigirSeguidor": false,
+      "exigirSeguidor": true,
       "origens": [
         "comentario"
       ],
@@ -65,7 +65,15 @@
         "18502395418103503"
       ],
       "porLegenda": true,
-      "_porque": "Simone 05/11/2026: sem a etapa de permissão; o primeiro botão (Começar agora) já abre a /bio/."
+      "_porque": "Simone 05/11/2026: quem não segue recebe antes \"Já me segue?\"; quem segue (ou depois do Já te sigo) recebe o cartão Começar agora → /bio/.",
+      "convite": {
+        "titulo": "Sua consulta te espera 💛",
+        "subtitulo": "Presente para quem me acompanha. Já me segue?",
+        "botaoSeguir": "Seguir",
+        "botao": "Já te sigo ✓",
+        "perfil": "https://www.instagram.com/sicarneironeurociencia/"
+      },
+      "aindaNaoSegue": "Toca em Seguir e depois em Já te sigo 💛"
     },
     {
       "nome": "consulta",
@@ -77,13 +85,13 @@
         "re:set"
       ],
       "respostaPublica": [
-        "Acabei de te enviar o acesso no direct. 💜 Agora é só garantir sua consulta gratuita!"
+        "Enviei o acesso no seu direct. 💛"
       ],
       "cartao": {
-        "titulo": "Sua consulta gratuita está aqui",
-        "subtitulo": "O primeiro passo para sua transformação é:",
-        "url": "https://wa.me/5521972511809?text=Ol%C3%A1%2C%20Simone!%20Vim%20do%20Instagram%20e%20quero%20a%20consulta%20diagn%C3%B3stica%20gratuita.",
-        "botao": "Agendar consulta"
+        "titulo": "Sua consulta diagnóstica começa aqui",
+        "subtitulo": "Toque no botão e agende seu horário. Vagas limitadas.",
+        "url": "https://lp.selfcreation.com.br/bio/?origem=comenta-padrao",
+        "botao": "Começar agora"
       },
       "exigirSeguidor": true,
       "origens": [
@@ -95,7 +103,13 @@
         "18116540395967163"
       ],
       "porLegenda": true,
-      "perguntarSempre": true,
+      "acompanhamento": {
+        "pergunta": "Oi! Você conseguiu responder às perguntas da sua análise diagnóstica? 💛",
+        "resposta": "Obrigada por responder 💛 Se ainda não concluiu, seu acesso continua aqui. A consulta diagnóstica está gratuita até {fimDoMes} para quem passa pelo perfil indicado na página.",
+        "botao": "Continuar minha análise",
+        "url": "https://lp.selfcreation.com.br/bio/?origem=comenta-padrao"
+      },
+      "_porque": "Simone 05/11/2026: quem não segue recebe antes \"Já me segue?\"; quem segue (ou depois do Já te sigo) recebe o cartão Começar agora → /bio/.",
       "convite": {
         "titulo": "Sua consulta te espera 💛",
         "subtitulo": "Presente para quem me acompanha. Já me segue?",
@@ -103,14 +117,7 @@
         "botao": "Já te sigo ✓",
         "perfil": "https://www.instagram.com/sicarneironeurociencia/"
       },
-      "aindaNaoSegue": "Toca em Seguir e depois em Já te sigo 💛",
-      "boasVindas": "Que bom ter você aqui! Escolhe seu horário 💛",
-      "acompanhamento": {
-        "pergunta": "Oi! Passando para saber: deu tudo certo para agendar a sua consulta? 💛",
-        "resposta": "Obrigada por responder 💛 Se já agendou, até lá! Se ficou alguma dúvida, é só tocar no botão. A consulta segue gratuita até {fimDoMes}.",
-        "botao": "Falar com a Simone",
-        "url": "https://wa.me/5521972511809?text=Ol%C3%A1%2C%20Simone!%20Vim%20do%20Instagram%20e%20quero%20a%20consulta%20diagn%C3%B3stica%20gratuita."
-      }
+      "aindaNaoSegue": "Toca em Seguir e depois em Já te sigo 💛"
     },
     {
       "nome": "calma",
