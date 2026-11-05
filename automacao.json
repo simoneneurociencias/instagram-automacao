@@ -39,7 +39,7 @@
     {
       "nome": "reels-fases-terapia",
       "ativo": true,
-      "_porque": "Simone 05/11/2026: Reels do Imagine Dragons (Todo processo terapêutico tem fases, 13/09, 11 mil curtidas). Qualquer comentário recebe o diagnóstico; quem não segue recebe antes Já me segue?. Curtida não dá: a API não informa quem curtiu.",
+      "_porque": "Simone 05/11/2026: Reels do Imagine Dragons (Todo processo terapêutico tem fases, 13/09, 11 mil curtidas). Qualquer comentário recebe o diagnóstico; quem não segue recebe antes Já me segue?. Curtida não dá: a API não informa quem curtiu. 05/11 (depois): texto da boas-vindas com \"Por você ter comentado, quero te dar um presente exclusivo\" e botão para a consulta (/bio/), não o diagnóstico.",
       "palavras": [],
       "qualquerComentario": true,
       "origens": [
@@ -53,7 +53,7 @@
       ],
       "exigirSeguidor": true,
       "convite": {
-        "titulo": "Seu diagnóstico te espera 💛",
+        "titulo": "Sua consulta te espera 💛",
         "subtitulo": "Presente para quem me acompanha. Já me segue?",
         "botaoSeguir": "Seguir",
         "botao": "Já te sigo ✓",
@@ -61,15 +61,15 @@
       },
       "aindaNaoSegue": "Toca em Seguir e depois em Já te sigo 💛",
       "botaoFinal": {
-        "texto": "Que bom ter você aqui! 💛 Responde com sinceridade: acesse o diagnóstico no botão abaixo. Leva uns 3 minutos e, no fim, você vê onde está a sua maior trava.",
-        "botao": "Acessar diagnóstico",
-        "url": "https://lp.selfcreation.com.br/diagnostico/?isca=1&origem=reels-fases-terapia"
+        "texto": "Olá! 🎁 Que bom ter você por aqui!\n\nEste perfil é sobre destravar padrões emocionais gerados na infância que podem estar impedindo você de conquistar o que deseja, sem nem perceber.\n\nPor você ter comentado, quero te dar um presente exclusivo! 🎁\n\nUma consulta diagnóstica gratuita de 50 minutos para identificar o que pode estar te bloqueando e descobrir um caminho para avançar.\n\n⏳ Só disponível até {fimDoMes}!\n\nGaranta sua vaga no botão abaixo 👇",
+        "botao": "Quero minha consulta",
+        "url": "https://lp.selfcreation.com.br/bio/?origem=reels-fases-terapia"
       },
       "acompanhamento": {
-        "pergunta": "Oi! Passando para saber como foi. Já descobriu onde você trava no seu crescimento? 💛",
-        "resposta": "Obrigada por responder 💛 Saber onde está a trava é o primeiro passo. Entender de onde ela vem é o próximo, na consulta diagnóstica gratuita até {fimDoMes}.",
-        "botao": "Agendar consulta",
-        "url": "https://wa.me/5521972511809?text=Ol%C3%A1%2C%20Simone!%20Vim%20do%20Instagram%20e%20quero%20a%20consulta%20diagn%C3%B3stica%20gratuita."
+        "pergunta": "Oi! Você conseguiu responder às perguntas da sua análise diagnóstica? 💛",
+        "resposta": "Obrigada por responder 💛 Se ainda não concluiu, seu acesso continua aqui. A consulta diagnóstica está gratuita até {fimDoMes} para quem passa pelo perfil indicado na página.",
+        "botao": "Continuar minha análise",
+        "url": "https://lp.selfcreation.com.br/bio/?origem=reels-fases-terapia"
       }
     },
     {
