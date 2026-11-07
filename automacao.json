@@ -87,7 +87,8 @@
         "titulo": "Sua consulta diagnóstica começa aqui",
         "subtitulo": "Toque no botão e agende seu horário. Vagas limitadas.",
         "url": "https://lp.selfcreation.com.br/bio/?origem=comenta-consulta",
-        "botao": "Começar agora"
+        "botao": "Começar agora",
+        "imagem": "https://ig-midia.simonecarneiro.workers.dev/consulta/og-consulta.jpg"
       },
       "acompanhamento": {
         "pergunta": "Oi! Você conseguiu responder às perguntas da sua análise diagnóstica? 💛",
@@ -100,7 +101,9 @@
         "comentario"
       ],
       "midias": [
-        "18502395418103503"
+        "18502395418103503",
+        "18358609327219648",
+        "18116667062129441"
       ],
       "porLegenda": true,
       "_porque": "Simone 05/11/2026: quem não segue recebe antes \"Já me segue?\"; quem segue (ou depois do Já te sigo) recebe o cartão Começar agora → /bio/.",
@@ -129,7 +132,8 @@
         "titulo": "Sua consulta diagnóstica começa aqui",
         "subtitulo": "Toque no botão e agende seu horário. Vagas limitadas.",
         "url": "https://lp.selfcreation.com.br/bio/?origem=comenta-padrao",
-        "botao": "Começar agora"
+        "botao": "Começar agora",
+        "imagem": "https://ig-midia.simonecarneiro.workers.dev/consulta/og-consulta.jpg"
       },
       "exigirSeguidor": true,
       "origens": [
