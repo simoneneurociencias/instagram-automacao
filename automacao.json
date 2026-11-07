@@ -88,7 +88,7 @@
         "subtitulo": "Toque no botão e agende seu horário. Vagas limitadas.",
         "url": "https://lp.selfcreation.com.br/bio/?origem=comenta-consulta",
         "botao": "Começar agora",
-        "imagem": "https://ig-midia.simonecarneiro.workers.dev/consulta/og-consulta.jpg"
+        "imagem": "https://ig-midia.simonecarneiro.workers.dev/consulta/og-consulta-quadrada.jpg"
       },
       "acompanhamento": {
         "pergunta": "Oi! Você conseguiu responder às perguntas da sua análise diagnóstica? 💛",
@@ -133,7 +133,7 @@
         "subtitulo": "Toque no botão e agende seu horário. Vagas limitadas.",
         "url": "https://lp.selfcreation.com.br/bio/?origem=comenta-padrao",
         "botao": "Começar agora",
-        "imagem": "https://ig-midia.simonecarneiro.workers.dev/consulta/og-consulta.jpg"
+        "imagem": "https://ig-midia.simonecarneiro.workers.dev/consulta/og-consulta-quadrada.jpg"
       },
       "exigirSeguidor": true,
       "origens": [
