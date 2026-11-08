@@ -458,8 +458,8 @@
     },
     {
       "nome": "boasvindas-consulta",
-      "ativo": true,
-      "_porque": "Simone 04/11/2026: boas-vindas manual oferece a consulta diagnóstica e termina em \"responde QUERO aqui\" (o Worker vê o eco e marca a pessoa por 7 dias). Quem responde quero recebe o cartão com o botão da /bio/, uma vez só.",
+      "ativo": false,
+      "_porque": "Simone 04/11/2026: boas-vindas manual oferece a consulta diagnóstica e termina em \"responde QUERO aqui\" (o Worker vê o eco e marca a pessoa por 7 dias). Quem responde quero recebe o cartão com o botão da /bio/, uma vez só. DESLIGADA 08/11/2026: a boas-vindas passou a perguntar \"o que te trouxe até aqui?\" (regras boasvindas-terapeuta/-carreira/-saude); o \"quero\" desta regra fazia \"quero o 1\" ficar sem resposta.",
       "palavras": [
         "quero"
       ],
@@ -472,6 +472,69 @@
         "url": "https://lp.selfcreation.com.br/bio/?origem=novoseguidor"
       },
       "depoisDe": "responde QUERO aqui"
+    },
+    {
+      "nome": "boasvindas-terapeuta",
+      "ativo": true,
+      "_porque": "Simone 08/11/2026: boas-vindas manual pergunta \"o que te trouxe até aqui?\" (1 terapeuta, 2 carreira/negócio, 3 ansiedade/saúde). O Worker vê o eco e marca a pessoa por 7 dias; quem responde 1 (resposta curta) recebe o texto do copy-chief + cartão da consulta, uma vez só. Resposta com frase longa ou com dois números fica com ela.",
+      "palavras": [
+        "1"
+      ],
+      "origens": [
+        "direct"
+      ],
+      "soPalavra": true,
+      "depoisDe": "o que te trouxe até aqui",
+      "textoAntes": "Que bom saber, [nome].\n\nÉ comum ter resultado com os clientes e mesmo assim não crescer, e quase sempre a trava está na mente, não na técnica.\n\nPor isso quero te oferecer uma consulta diagnóstica gratuita de 50 minutos, para identificar o que está segurando o seu crescimento.\n\nEla fica gratuita até {fimDoMes}.",
+      "cartao": {
+        "titulo": "Sua consulta diagnóstica começa aqui",
+        "subtitulo": "Gratuita até {fimDoMes}. Toque no botão e garanta a sua.",
+        "url": "https://lp.selfcreation.com.br/bio/?origem=novoseguidor-terapeuta",
+        "botao": "Começar agora",
+        "imagem": "https://ig-midia.simonecarneiro.workers.dev/consulta/og-consulta-quadrada.jpg"
+      }
+    },
+    {
+      "nome": "boasvindas-carreira",
+      "ativo": true,
+      "_porque": "Simone 08/11/2026: boas-vindas manual pergunta \"o que te trouxe até aqui?\" (1 terapeuta, 2 carreira/negócio, 3 ansiedade/saúde). O Worker vê o eco e marca a pessoa por 7 dias; quem responde 2 (resposta curta) recebe o texto do copy-chief + cartão da consulta, uma vez só. Resposta com frase longa ou com dois números fica com ela.",
+      "palavras": [
+        "2"
+      ],
+      "origens": [
+        "direct"
+      ],
+      "soPalavra": true,
+      "depoisDe": "o que te trouxe até aqui",
+      "textoAntes": "Entendo, [nome].\n\nQuando a carreira ou o negócio não avança, muitas vezes não falta esforço, é a mente que segura o próximo passo.\n\nPor isso quero te oferecer uma consulta diagnóstica gratuita de 50 minutos, para identificar o padrão que está te segurando.\n\nEla fica gratuita até {fimDoMes}.",
+      "cartao": {
+        "titulo": "Sua consulta diagnóstica começa aqui",
+        "subtitulo": "Gratuita até {fimDoMes}. Toque no botão e garanta a sua.",
+        "url": "https://lp.selfcreation.com.br/bio/?origem=novoseguidor-carreira",
+        "botao": "Começar agora",
+        "imagem": "https://ig-midia.simonecarneiro.workers.dev/consulta/og-consulta-quadrada.jpg"
+      }
+    },
+    {
+      "nome": "boasvindas-saude",
+      "ativo": true,
+      "_porque": "Simone 08/11/2026: boas-vindas manual pergunta \"o que te trouxe até aqui?\" (1 terapeuta, 2 carreira/negócio, 3 ansiedade/saúde). O Worker vê o eco e marca a pessoa por 7 dias; quem responde 3 (resposta curta) recebe o texto do copy-chief + cartão da consulta, uma vez só. Resposta com frase longa ou com dois números fica com ela.",
+      "palavras": [
+        "3"
+      ],
+      "origens": [
+        "direct"
+      ],
+      "soPalavra": true,
+      "depoisDe": "o que te trouxe até aqui",
+      "textoAntes": "Obrigada por compartilhar, [nome].\n\nAnsiedade, medo e esgotamento costumam ter raiz em padrões emocionais antigos, e dá para olhar para isso com calma.\n\nPor isso quero te oferecer uma consulta diagnóstica gratuita de 50 minutos, para entender o que está por trás do que você sente.\n\nEla fica gratuita até {fimDoMes}.",
+      "cartao": {
+        "titulo": "Sua consulta diagnóstica começa aqui",
+        "subtitulo": "Gratuita até {fimDoMes}. Toque no botão e garanta a sua.",
+        "url": "https://lp.selfcreation.com.br/bio/?origem=novoseguidor-saude",
+        "botao": "Começar agora",
+        "imagem": "https://ig-midia.simonecarneiro.workers.dev/consulta/og-consulta-quadrada.jpg"
+      }
     }
   ]
 }
