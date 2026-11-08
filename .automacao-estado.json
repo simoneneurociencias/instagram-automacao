@@ -117,10 +117,20 @@
         "direct: Instagram API erro: An unknown error has occurred.",
         "resposta pública não postada: o direct falhou antes"
       ]
+    },
+    "17914439748487588": {
+      "regra": "consulta-bio-consulta",
+      "em": "2026-11-08T19:52:38.924Z",
+      "erros": [
+        "direct: Instagram API erro: An unknown error has occurred.",
+        "resposta pública não postada: o direct falhou antes"
+      ]
     }
   },
   "conversas": {},
-  "execucoes": 387,
-  "ultimaExecucao": "2026-11-08T15:28:17.963Z",
-  "historico": []
+  "execucoes": 388,
+  "ultimaExecucao": "2026-11-08T19:52:53.630Z",
+  "historico": [
+    "2026-11-08T19:52:53.630Z"
+  ]
 }
