@@ -543,7 +543,7 @@
     {
       "nome": "osho-culpa",
       "ativo": true,
-      "_porque": "Simone 22/11/2026: resposta automática da mensagem do tema Osho (seguidores da semana e quem comentou nos Reels do Osho). A mensagem termina em \"o que mais falou com você?\"; o Worker vê o eco e marca a pessoa com ESSA frase por 7 dias, então o número vale só para estas regras (não cai na boas-vindas comum). Resposta curta (até 5 palavras), uma vez só; frase longa, dois números ou outra coisa ficam com ela. Textos do copy-chief (Marketing-Os/boas-vindas/mensagem-tema.md). Portão de seguidor (Simone 22/11/2026): quem não segue recebe o texto da opção e o cartão \"Você já me segue?\"; o cartão da consulta sai no toque em \"Já te sigo ✓\". Copy do copy-chief.",
+      "_porque": "Simone 22/11/2026: resposta automática da mensagem do tema Osho (seguidores da semana e quem comentou nos Reels do Osho). A mensagem termina em \"o que mais falou com você?\"; o Worker vê o eco e marca a pessoa com ESSA frase por 7 dias, então o número vale só para estas regras (não cai na boas-vindas comum). Resposta curta (até 5 palavras), uma vez só; frase longa, dois números ou outra coisa ficam com ela. Textos do copy-chief (Marketing-Os/boas-vindas/mensagem-tema.md). Portão de seguidor (Simone 22/11/2026): quem não segue recebe o texto da opção e o cartão \"Você já me segue?\"; o cartão da consulta sai no toque em \"Já te sigo ✓\". Copy do copy-chief. 22/11 (depois): resposta direta com a proposta; o botão Começar agora passa pelo /consulta do Worker, que só abre a /vida-pessoal/ para quem segue (quem não segue vê a página \"Falta só um passo\"). O cartão \"Você já me segue?\" no Direct saiu.",
       "palavras": [
         "1",
         "culpa"
@@ -556,15 +556,15 @@
         "com o que você mais se identificou",
         "o que mais falou com você"
       ],
-      "textoAntes": "Faz sentido, [nome].\n\nA culpa quase nunca é escolha. É um padrão que a mente aprendeu cedo e segue repetindo, mesmo quando a gente já entendeu que não precisa mais dele.\n\nSe fizer sentido para você, quero te oferecer uma consulta diagnóstica gratuita de 50 minutos comigo. A gente olha de onde vem essa culpa e o que ela ainda segura na sua vida.\n\nEla fica gratuita até {fimDoMes}.",
+      "textoAntes": "Faz sentido, [nome].\n\nSe você quiser, eu te ofereço uma consulta diagnóstica gratuita de 50 minutos comigo. A gente olha de onde vem essa culpa e o que ela ainda segura na sua vida.\n\nEla fica gratuita até {fimDoMes}. Toque no botão aqui embaixo para começar.",
       "cartao": {
         "titulo": "Sua consulta diagnóstica começa aqui",
         "subtitulo": "Gratuita até {fimDoMes}. Toque no botão e garanta a sua.",
-        "url": "https://lp.selfcreation.com.br/vida-pessoal/?origem=osho-culpa",
+        "url": "https://instagram-automacao.simonecarneiro.workers.dev/consulta?u={igsid}&o=osho-culpa",
         "botao": "Começar agora",
         "imagem": "https://ig-midia.simonecarneiro.workers.dev/consulta/og-consulta-quadrada.jpg"
       },
-      "exigirSeguidor": true,
+      "exigirSeguidor": false,
       "convite": {
         "titulo": "Você já me segue? 😊",
         "subtitulo": "Me segue por aqui e eu te mando o link da sua consulta diagnóstica gratuita.",
@@ -577,7 +577,7 @@
     {
       "nome": "osho-medo",
       "ativo": true,
-      "_porque": "Simone 22/11/2026: resposta automática da mensagem do tema Osho (seguidores da semana e quem comentou nos Reels do Osho). A mensagem termina em \"o que mais falou com você?\"; o Worker vê o eco e marca a pessoa com ESSA frase por 7 dias, então o número vale só para estas regras (não cai na boas-vindas comum). Resposta curta (até 5 palavras), uma vez só; frase longa, dois números ou outra coisa ficam com ela. Textos do copy-chief (Marketing-Os/boas-vindas/mensagem-tema.md). Portão de seguidor (Simone 22/11/2026): quem não segue recebe o texto da opção e o cartão \"Você já me segue?\"; o cartão da consulta sai no toque em \"Já te sigo ✓\". Copy do copy-chief.",
+      "_porque": "Simone 22/11/2026: resposta automática da mensagem do tema Osho (seguidores da semana e quem comentou nos Reels do Osho). A mensagem termina em \"o que mais falou com você?\"; o Worker vê o eco e marca a pessoa com ESSA frase por 7 dias, então o número vale só para estas regras (não cai na boas-vindas comum). Resposta curta (até 5 palavras), uma vez só; frase longa, dois números ou outra coisa ficam com ela. Textos do copy-chief (Marketing-Os/boas-vindas/mensagem-tema.md). Portão de seguidor (Simone 22/11/2026): quem não segue recebe o texto da opção e o cartão \"Você já me segue?\"; o cartão da consulta sai no toque em \"Já te sigo ✓\". Copy do copy-chief. 22/11 (depois): resposta direta com a proposta; o botão Começar agora passa pelo /consulta do Worker, que só abre a /vida-pessoal/ para quem segue (quem não segue vê a página \"Falta só um passo\"). O cartão \"Você já me segue?\" no Direct saiu.",
       "palavras": [
         "2",
         "medo"
@@ -590,15 +590,15 @@
         "com o que você mais se identificou",
         "o que mais falou com você"
       ],
-      "textoAntes": "Entendo, [nome].\n\nSer livre para ser quem a gente é dá medo quando a mente aprendeu cedo que se mostrar traz rejeição.\n\nEsse medo protegeu você um dia. Hoje, ele só afasta você de quem você é.\n\nSe fizer sentido para você, quero te oferecer uma consulta diagnóstica gratuita de 50 minutos comigo. A gente olha que medo é esse e o que ele ainda impede você de viver.\n\nEla fica gratuita até {fimDoMes}.",
+      "textoAntes": "Entendo, [nome].\n\nSe você quiser, eu te ofereço uma consulta diagnóstica gratuita de 50 minutos comigo. A gente olha que medo é esse e o que ele ainda impede você de viver.\n\nEla fica gratuita até {fimDoMes}. Toque no botão aqui embaixo para começar.",
       "cartao": {
         "titulo": "Sua consulta diagnóstica começa aqui",
         "subtitulo": "Gratuita até {fimDoMes}. Toque no botão e garanta a sua.",
-        "url": "https://lp.selfcreation.com.br/vida-pessoal/?origem=osho-medo",
+        "url": "https://instagram-automacao.simonecarneiro.workers.dev/consulta?u={igsid}&o=osho-medo",
         "botao": "Começar agora",
         "imagem": "https://ig-midia.simonecarneiro.workers.dev/consulta/og-consulta-quadrada.jpg"
       },
-      "exigirSeguidor": true,
+      "exigirSeguidor": false,
       "convite": {
         "titulo": "Você já me segue? 😊",
         "subtitulo": "Me segue por aqui e eu te mando o link da sua consulta diagnóstica gratuita.",
@@ -611,7 +611,7 @@
     {
       "nome": "osho-paz",
       "ativo": true,
-      "_porque": "Simone 22/11/2026: resposta automática da mensagem do tema Osho (seguidores da semana e quem comentou nos Reels do Osho). A mensagem termina em \"o que mais falou com você?\"; o Worker vê o eco e marca a pessoa com ESSA frase por 7 dias, então o número vale só para estas regras (não cai na boas-vindas comum). Resposta curta (até 5 palavras), uma vez só; frase longa, dois números ou outra coisa ficam com ela. Textos do copy-chief (Marketing-Os/boas-vindas/mensagem-tema.md). Portão de seguidor (Simone 22/11/2026): quem não segue recebe o texto da opção e o cartão \"Você já me segue?\"; o cartão da consulta sai no toque em \"Já te sigo ✓\". Copy do copy-chief. 22/11: opção 3 trocada de \"acalmar a minha mente\" para \"Quero a paz da conexão com o divino em mim\" (copy-chief).",
+      "_porque": "Simone 22/11/2026: resposta automática da mensagem do tema Osho (seguidores da semana e quem comentou nos Reels do Osho). A mensagem termina em \"o que mais falou com você?\"; o Worker vê o eco e marca a pessoa com ESSA frase por 7 dias, então o número vale só para estas regras (não cai na boas-vindas comum). Resposta curta (até 5 palavras), uma vez só; frase longa, dois números ou outra coisa ficam com ela. Textos do copy-chief (Marketing-Os/boas-vindas/mensagem-tema.md). Portão de seguidor (Simone 22/11/2026): quem não segue recebe o texto da opção e o cartão \"Você já me segue?\"; o cartão da consulta sai no toque em \"Já te sigo ✓\". Copy do copy-chief. 22/11: opção 3 trocada de \"acalmar a minha mente\" para \"Quero a paz da conexão com o divino em mim\" (copy-chief). 22/11 (depois): resposta direta com a proposta; o botão Começar agora passa pelo /consulta do Worker, que só abre a /vida-pessoal/ para quem segue (quem não segue vê a página \"Falta só um passo\"). O cartão \"Você já me segue?\" no Direct saiu.",
       "palavras": [
         "3",
         "paz",
@@ -628,15 +628,15 @@
         "com o que você mais se identificou",
         "o que mais falou com você"
       ],
-      "textoAntes": "Que bonito, [nome].\n\nO Osho fala que, no momento em que você se liberta da culpa, a porta do Divino se abre.\n\nMuitas vezes, o que mantém essa porta fechada é a culpa e o medo que a mente aprendeu cedo e ainda segura.\n\nSe fizer sentido para você, quero te oferecer uma consulta diagnóstica gratuita de 50 minutos comigo. A gente olha o que a sua mente ainda segura e o que hoje afasta você dessa paz.\n\nEla fica gratuita até {fimDoMes}.",
+      "textoAntes": "Que bonito, [nome].\n\nSe você quiser, eu te ofereço uma consulta diagnóstica gratuita de 50 minutos comigo. A gente olha o que a sua mente ainda segura e o que hoje afasta você da paz interior.\n\nEla fica gratuita até {fimDoMes}. Toque no botão aqui embaixo para começar.",
       "cartao": {
         "titulo": "Sua consulta diagnóstica começa aqui",
         "subtitulo": "Gratuita até {fimDoMes}. Toque no botão e garanta a sua.",
-        "url": "https://lp.selfcreation.com.br/vida-pessoal/?origem=osho-paz",
+        "url": "https://instagram-automacao.simonecarneiro.workers.dev/consulta?u={igsid}&o=osho-paz",
         "botao": "Começar agora",
         "imagem": "https://ig-midia.simonecarneiro.workers.dev/consulta/og-consulta-quadrada.jpg"
       },
-      "exigirSeguidor": true,
+      "exigirSeguidor": false,
       "convite": {
         "titulo": "Você já me segue? 😊",
         "subtitulo": "Me segue por aqui e eu te mando o link da sua consulta diagnóstica gratuita.",
