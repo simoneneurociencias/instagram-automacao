@@ -543,7 +543,7 @@
     {
       "nome": "osho-culpa",
       "ativo": true,
-      "_porque": "Simone 22/11/2026: resposta automática da mensagem do tema Osho (seguidores da semana e quem comentou nos Reels do Osho). A mensagem termina em \"o que mais falou com você?\"; o Worker vê o eco e marca a pessoa com ESSA frase por 7 dias, então o número vale só para estas regras (não cai na boas-vindas comum). Resposta curta (até 5 palavras), uma vez só; frase longa, dois números ou outra coisa ficam com ela. Textos do copy-chief (Marketing-Os/boas-vindas/mensagem-tema.md).",
+      "_porque": "Simone 22/11/2026: resposta automática da mensagem do tema Osho (seguidores da semana e quem comentou nos Reels do Osho). A mensagem termina em \"o que mais falou com você?\"; o Worker vê o eco e marca a pessoa com ESSA frase por 7 dias, então o número vale só para estas regras (não cai na boas-vindas comum). Resposta curta (até 5 palavras), uma vez só; frase longa, dois números ou outra coisa ficam com ela. Textos do copy-chief (Marketing-Os/boas-vindas/mensagem-tema.md). Portão de seguidor (Simone 22/11/2026): quem não segue recebe o texto da opção e o cartão \"Você já me segue?\"; o cartão da consulta sai no toque em \"Já te sigo ✓\". Copy do copy-chief.",
       "palavras": [
         "1",
         "culpa"
@@ -560,12 +560,21 @@
         "url": "https://lp.selfcreation.com.br/vida-pessoal/?origem=osho-culpa",
         "botao": "Começar agora",
         "imagem": "https://ig-midia.simonecarneiro.workers.dev/consulta/og-consulta-quadrada.jpg"
-      }
+      },
+      "exigirSeguidor": true,
+      "convite": {
+        "titulo": "Você já me segue? 😊",
+        "subtitulo": "Me segue por aqui e eu te mando o link da sua consulta diagnóstica gratuita.",
+        "botaoSeguir": "Seguir",
+        "botao": "Já te sigo ✓",
+        "perfil": "https://www.instagram.com/sicarneironeurociencia/"
+      },
+      "aindaNaoSegue": "Ainda não te vi por aqui 💜 Toca em Seguir e volta neste botão."
     },
     {
       "nome": "osho-medo",
       "ativo": true,
-      "_porque": "Simone 22/11/2026: resposta automática da mensagem do tema Osho (seguidores da semana e quem comentou nos Reels do Osho). A mensagem termina em \"o que mais falou com você?\"; o Worker vê o eco e marca a pessoa com ESSA frase por 7 dias, então o número vale só para estas regras (não cai na boas-vindas comum). Resposta curta (até 5 palavras), uma vez só; frase longa, dois números ou outra coisa ficam com ela. Textos do copy-chief (Marketing-Os/boas-vindas/mensagem-tema.md).",
+      "_porque": "Simone 22/11/2026: resposta automática da mensagem do tema Osho (seguidores da semana e quem comentou nos Reels do Osho). A mensagem termina em \"o que mais falou com você?\"; o Worker vê o eco e marca a pessoa com ESSA frase por 7 dias, então o número vale só para estas regras (não cai na boas-vindas comum). Resposta curta (até 5 palavras), uma vez só; frase longa, dois números ou outra coisa ficam com ela. Textos do copy-chief (Marketing-Os/boas-vindas/mensagem-tema.md). Portão de seguidor (Simone 22/11/2026): quem não segue recebe o texto da opção e o cartão \"Você já me segue?\"; o cartão da consulta sai no toque em \"Já te sigo ✓\". Copy do copy-chief.",
       "palavras": [
         "2",
         "medo"
@@ -582,12 +591,21 @@
         "url": "https://lp.selfcreation.com.br/vida-pessoal/?origem=osho-medo",
         "botao": "Começar agora",
         "imagem": "https://ig-midia.simonecarneiro.workers.dev/consulta/og-consulta-quadrada.jpg"
-      }
+      },
+      "exigirSeguidor": true,
+      "convite": {
+        "titulo": "Você já me segue? 😊",
+        "subtitulo": "Me segue por aqui e eu te mando o link da sua consulta diagnóstica gratuita.",
+        "botaoSeguir": "Seguir",
+        "botao": "Já te sigo ✓",
+        "perfil": "https://www.instagram.com/sicarneironeurociencia/"
+      },
+      "aindaNaoSegue": "Ainda não te vi por aqui 💜 Toca em Seguir e volta neste botão."
     },
     {
       "nome": "osho-mente",
       "ativo": true,
-      "_porque": "Simone 22/11/2026: resposta automática da mensagem do tema Osho (seguidores da semana e quem comentou nos Reels do Osho). A mensagem termina em \"o que mais falou com você?\"; o Worker vê o eco e marca a pessoa com ESSA frase por 7 dias, então o número vale só para estas regras (não cai na boas-vindas comum). Resposta curta (até 5 palavras), uma vez só; frase longa, dois números ou outra coisa ficam com ela. Textos do copy-chief (Marketing-Os/boas-vindas/mensagem-tema.md).",
+      "_porque": "Simone 22/11/2026: resposta automática da mensagem do tema Osho (seguidores da semana e quem comentou nos Reels do Osho). A mensagem termina em \"o que mais falou com você?\"; o Worker vê o eco e marca a pessoa com ESSA frase por 7 dias, então o número vale só para estas regras (não cai na boas-vindas comum). Resposta curta (até 5 palavras), uma vez só; frase longa, dois números ou outra coisa ficam com ela. Textos do copy-chief (Marketing-Os/boas-vindas/mensagem-tema.md). Portão de seguidor (Simone 22/11/2026): quem não segue recebe o texto da opção e o cartão \"Você já me segue?\"; o cartão da consulta sai no toque em \"Já te sigo ✓\". Copy do copy-chief.",
       "palavras": [
         "3",
         "mente",
@@ -605,7 +623,16 @@
         "url": "https://lp.selfcreation.com.br/vida-pessoal/?origem=osho-mente",
         "botao": "Começar agora",
         "imagem": "https://ig-midia.simonecarneiro.workers.dev/consulta/og-consulta-quadrada.jpg"
-      }
+      },
+      "exigirSeguidor": true,
+      "convite": {
+        "titulo": "Você já me segue? 😊",
+        "subtitulo": "Me segue por aqui e eu te mando o link da sua consulta diagnóstica gratuita.",
+        "botaoSeguir": "Seguir",
+        "botao": "Já te sigo ✓",
+        "perfil": "https://www.instagram.com/sicarneironeurociencia/"
+      },
+      "aindaNaoSegue": "Ainda não te vi por aqui 💜 Toca em Seguir e volta neste botão."
     }
   ]
 }
