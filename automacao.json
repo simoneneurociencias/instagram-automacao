@@ -143,7 +143,11 @@
         "18098960093543858",
         "18061288535562812",
         "18116540395967163",
-        "17926887783182531"
+        "17926887783182531",
+        "18135376513690263",
+        "17930688705180385",
+        "18358609327219648",
+        "18116667062129441"
       ],
       "porLegenda": true,
       "acompanhamento": {
@@ -164,7 +168,7 @@
     },
     {
       "nome": "calma",
-      "ativo": true,
+      "ativo": false,
       "palavras": [
         "calma",
         "confia",
@@ -201,7 +205,7 @@
     },
     {
       "nome": "webinario",
-      "ativo": true,
+      "ativo": false,
       "palavras": [
         "destrava",
         "padrao",
@@ -532,6 +536,73 @@
         "titulo": "Sua consulta diagnóstica começa aqui",
         "subtitulo": "Gratuita até {fimDoMes}. Toque no botão e garanta a sua.",
         "url": "https://lp.selfcreation.com.br/bio/?origem=novoseguidor-saude",
+        "botao": "Começar agora",
+        "imagem": "https://ig-midia.simonecarneiro.workers.dev/consulta/og-consulta-quadrada.jpg"
+      }
+    },
+    {
+      "nome": "osho-culpa",
+      "ativo": true,
+      "_porque": "Simone 22/11/2026: resposta automática da mensagem do tema Osho (seguidores da semana e quem comentou nos Reels do Osho). A mensagem termina em \"o que mais falou com você?\"; o Worker vê o eco e marca a pessoa com ESSA frase por 7 dias, então o número vale só para estas regras (não cai na boas-vindas comum). Resposta curta (até 5 palavras), uma vez só; frase longa, dois números ou outra coisa ficam com ela. Textos do copy-chief (Marketing-Os/boas-vindas/mensagem-tema.md).",
+      "palavras": [
+        "1",
+        "culpa"
+      ],
+      "origens": [
+        "direct"
+      ],
+      "soPalavra": true,
+      "depoisDe": "o que mais falou com você",
+      "textoAntes": "Faz sentido, [nome].\n\nA culpa quase nunca é escolha. É um padrão que a mente aprendeu cedo e segue repetindo, mesmo quando a gente já entendeu que não precisa mais dele.\n\nSe fizer sentido para você, quero te oferecer uma consulta diagnóstica gratuita de 50 minutos comigo. A gente olha de onde vem essa culpa e o que ela ainda segura na sua vida.\n\nEla fica gratuita até {fimDoMes}.",
+      "cartao": {
+        "titulo": "Sua consulta diagnóstica começa aqui",
+        "subtitulo": "Gratuita até {fimDoMes}. Toque no botão e garanta a sua.",
+        "url": "https://lp.selfcreation.com.br/vida-pessoal/?origem=osho-culpa",
+        "botao": "Começar agora",
+        "imagem": "https://ig-midia.simonecarneiro.workers.dev/consulta/og-consulta-quadrada.jpg"
+      }
+    },
+    {
+      "nome": "osho-medo",
+      "ativo": true,
+      "_porque": "Simone 22/11/2026: resposta automática da mensagem do tema Osho (seguidores da semana e quem comentou nos Reels do Osho). A mensagem termina em \"o que mais falou com você?\"; o Worker vê o eco e marca a pessoa com ESSA frase por 7 dias, então o número vale só para estas regras (não cai na boas-vindas comum). Resposta curta (até 5 palavras), uma vez só; frase longa, dois números ou outra coisa ficam com ela. Textos do copy-chief (Marketing-Os/boas-vindas/mensagem-tema.md).",
+      "palavras": [
+        "2",
+        "medo"
+      ],
+      "origens": [
+        "direct"
+      ],
+      "soPalavra": true,
+      "depoisDe": "o que mais falou com você",
+      "textoAntes": "Entendo, [nome].\n\nSer livre para ser quem a gente é dá medo quando a mente aprendeu cedo que se mostrar traz rejeição.\n\nEsse medo protegeu você um dia. Hoje, ele só afasta você de quem você é.\n\nSe fizer sentido para você, quero te oferecer uma consulta diagnóstica gratuita de 50 minutos comigo. A gente olha que medo é esse e o que ele ainda impede você de viver.\n\nEla fica gratuita até {fimDoMes}.",
+      "cartao": {
+        "titulo": "Sua consulta diagnóstica começa aqui",
+        "subtitulo": "Gratuita até {fimDoMes}. Toque no botão e garanta a sua.",
+        "url": "https://lp.selfcreation.com.br/vida-pessoal/?origem=osho-medo",
+        "botao": "Começar agora",
+        "imagem": "https://ig-midia.simonecarneiro.workers.dev/consulta/og-consulta-quadrada.jpg"
+      }
+    },
+    {
+      "nome": "osho-mente",
+      "ativo": true,
+      "_porque": "Simone 22/11/2026: resposta automática da mensagem do tema Osho (seguidores da semana e quem comentou nos Reels do Osho). A mensagem termina em \"o que mais falou com você?\"; o Worker vê o eco e marca a pessoa com ESSA frase por 7 dias, então o número vale só para estas regras (não cai na boas-vindas comum). Resposta curta (até 5 palavras), uma vez só; frase longa, dois números ou outra coisa ficam com ela. Textos do copy-chief (Marketing-Os/boas-vindas/mensagem-tema.md).",
+      "palavras": [
+        "3",
+        "mente",
+        "acalmar"
+      ],
+      "origens": [
+        "direct"
+      ],
+      "soPalavra": true,
+      "depoisDe": "o que mais falou com você",
+      "textoAntes": "Entendo, [nome].\n\nO Osho fala que, quando a mente para, a gente encontra o que já está dentro.\n\nSó que uma mente acelerada, cheia de preocupação e cobrança, quase nunca desacelera por conta própria.\n\nNa maioria das vezes, essa agitação é um padrão que a mente aprendeu cedo para se proteger.\n\nSe fizer sentido para você, quero te oferecer uma consulta diagnóstica gratuita de 50 minutos comigo. A gente olha o que mantém a sua mente nesse ritmo e do que ela está tentando proteger você.\n\nEla fica gratuita até {fimDoMes}.",
+      "cartao": {
+        "titulo": "Sua consulta diagnóstica começa aqui",
+        "subtitulo": "Gratuita até {fimDoMes}. Toque no botão e garanta a sua.",
+        "url": "https://lp.selfcreation.com.br/vida-pessoal/?origem=osho-mente",
         "botao": "Começar agora",
         "imagem": "https://ig-midia.simonecarneiro.workers.dev/consulta/og-consulta-quadrada.jpg"
       }
