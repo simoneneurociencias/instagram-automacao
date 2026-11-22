@@ -37,6 +37,25 @@
   ],
   "regras": [
     {
+      "nome": "reels-osho-20-11",
+      "ativo": true,
+      "palavras": [],
+      "qualquerComentario": true,
+      "origens": [
+        "comentario"
+      ],
+      "midias": [
+        "18039913013851746"
+      ],
+      "exigirSeguidor": false,
+      "botaoFinal": {
+        "texto": "Oi! Vi seu comentário no vídeo do Osho 🙏\n\nSou a Simone, trabalho com neurociência e comportamento.\n\nSe hoje você busca essa conexão e não sabe por onde começar, quero te convidar a conhecer um caminho objetivo que vai direto à raiz e te reconecta com o seu ser, com o seu poder interior.\n\nPode ser o começo de uma vida mais leve e com mais paz por dentro. Começa por uma consulta diagnóstica gratuita 👇",
+        "botao": "Quero conhecer",
+        "url": "https://lp.selfcreation.com.br/poder-interior/?origem=reels-osho-20-11"
+      },
+      "_porque": "Simone 23/11/2026 (\"liga o robô\"): no Reels do Osho de 20/11 (Deus/poder interior), QUALQUER comentário novo recebe na hora a mensagem aprovada por ela + botão Quero conhecer que abre a /poder-interior/. Sem portão de seguidor e sem resposta pública (não pedidos). Comentários antigos já foram atendidos à mão (ver enviar-deus-comentarios.mjs)."
+    },
+    {
       "nome": "reels-fases-terapia",
       "ativo": true,
       "_porque": "Simone 05/11/2026: Reels do Imagine Dragons (Todo processo terapêutico tem fases, 13/09, 11 mil curtidas). Qualquer comentário recebe o diagnóstico; quem não segue recebe antes Já me segue?. Curtida não dá: a API não informa quem curtiu. 05/11 (depois): texto da boas-vindas com \"Por você ter comentado, quero te dar um presente exclusivo\" e botão para a consulta (/bio/), não o diagnóstico.",
