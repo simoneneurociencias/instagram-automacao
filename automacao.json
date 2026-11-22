@@ -645,6 +645,38 @@
         "perfil": "https://www.instagram.com/sicarneironeurociencia/"
       },
       "aindaNaoSegue": "Ainda não te vi por aqui 💜 Toca em Seguir e volta neste botão."
+    },
+    {
+      "nome": "deus-conhecer",
+      "ativo": true,
+      "_porque": "Simone 23/11/2026: fluxo do Reels do Osho de 20/11 (18039913013851746). 1a mensagem = convite direto com botão Quero conhecer (enviar-deus-comentarios.mjs), só para fagnermarcos86, nouh_guedes e lipynn. Texto dela melhorado pelo copy-chief. DESLIGADO até ela mandar ligar.",
+      "palavras": [
+        "quero conhecer"
+      ],
+      "origens": [
+        "direct"
+      ],
+      "soPalavra": true,
+      "depoisDe": [
+        "com o seu ser, com o seu poder interior"
+      ],
+      "textoAntes": "[nome], que bom ter você aqui! É só tocar no cartão abaixo 👇",
+      "cartao": {
+        "titulo": "Sua consulta diagnóstica começa aqui",
+        "subtitulo": "Gratuita até {fimDoMes}. Toque no botão e garanta a sua.",
+        "url": "https://instagram-automacao.simonecarneiro.workers.dev/consulta?u={igsid}&o=deus-conhecer&p=poder-interior",
+        "botao": "Começar agora",
+        "imagem": "https://ig-midia.simonecarneiro.workers.dev/consulta/og-consulta-quadrada.jpg"
+      },
+      "exigirSeguidor": false,
+      "convite": {
+        "titulo": "Você já me segue? 😊",
+        "subtitulo": "Me segue por aqui e eu te mando o link da sua consulta diagnóstica gratuita.",
+        "botaoSeguir": "Seguir",
+        "botao": "Já te sigo ✓",
+        "perfil": "https://www.instagram.com/sicarneironeurociencia/"
+      },
+      "aindaNaoSegue": "Ainda não te vi por aqui 💜 Toca em Seguir e volta neste botão."
     }
   ]
 }
