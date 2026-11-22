@@ -556,7 +556,7 @@
         "com o que você mais se identificou",
         "o que mais falou com você"
       ],
-      "textoAntes": "Faz sentido, [nome].\n\nSe você quiser, eu te ofereço uma consulta diagnóstica gratuita de 50 minutos comigo. A gente olha de onde vem essa culpa e o que ela ainda segura na sua vida.\n\nEla fica gratuita até {fimDoMes}. Toque no botão aqui embaixo para começar.",
+      "textoAntes": "[nome], a culpa costuma ter uma origem bem mais antiga do que parece.\n\nVamos olhar de onde vem a sua? É só tocar aqui embaixo 👇",
       "cartao": {
         "titulo": "Sua consulta diagnóstica começa aqui",
         "subtitulo": "Gratuita até {fimDoMes}. Toque no botão e garanta a sua.",
@@ -590,7 +590,7 @@
         "com o que você mais se identificou",
         "o que mais falou com você"
       ],
-      "textoAntes": "Entendo, [nome].\n\nSe você quiser, eu te ofereço uma consulta diagnóstica gratuita de 50 minutos comigo. A gente olha que medo é esse e o que ele ainda impede você de viver.\n\nEla fica gratuita até {fimDoMes}. Toque no botão aqui embaixo para começar.",
+      "textoAntes": "Esse medo um dia protegeu você, [nome]. Hoje ele só segura.\n\nVamos ver o que ele está protegendo? Toca aqui 👇",
       "cartao": {
         "titulo": "Sua consulta diagnóstica começa aqui",
         "subtitulo": "Gratuita até {fimDoMes}. Toque no botão e garanta a sua.",
@@ -628,7 +628,7 @@
         "com o que você mais se identificou",
         "o que mais falou com você"
       ],
-      "textoAntes": "Que bonito, [nome].\n\nSe você quiser, eu te ofereço uma consulta diagnóstica gratuita de 50 minutos comigo. A gente olha o que a sua mente ainda segura e o que hoje afasta você da paz interior.\n\nEla fica gratuita até {fimDoMes}. Toque no botão aqui embaixo para começar.",
+      "textoAntes": "Lindo, [nome]. Paz não se busca lá fora, né?\n\nMuitas vezes é a própria mente que fica no caminho. Quer ver o que está no seu? Toca aqui 👇",
       "cartao": {
         "titulo": "Sua consulta diagnóstica começa aqui",
         "subtitulo": "Gratuita até {fimDoMes}. Toque no botão e garanta a sua.",
