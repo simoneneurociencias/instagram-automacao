@@ -603,24 +603,26 @@
       "aindaNaoSegue": "Ainda não te vi por aqui 💜 Toca em Seguir e volta neste botão."
     },
     {
-      "nome": "osho-mente",
+      "nome": "osho-paz",
       "ativo": true,
-      "_porque": "Simone 22/11/2026: resposta automática da mensagem do tema Osho (seguidores da semana e quem comentou nos Reels do Osho). A mensagem termina em \"o que mais falou com você?\"; o Worker vê o eco e marca a pessoa com ESSA frase por 7 dias, então o número vale só para estas regras (não cai na boas-vindas comum). Resposta curta (até 5 palavras), uma vez só; frase longa, dois números ou outra coisa ficam com ela. Textos do copy-chief (Marketing-Os/boas-vindas/mensagem-tema.md). Portão de seguidor (Simone 22/11/2026): quem não segue recebe o texto da opção e o cartão \"Você já me segue?\"; o cartão da consulta sai no toque em \"Já te sigo ✓\". Copy do copy-chief.",
+      "_porque": "Simone 22/11/2026: resposta automática da mensagem do tema Osho (seguidores da semana e quem comentou nos Reels do Osho). A mensagem termina em \"o que mais falou com você?\"; o Worker vê o eco e marca a pessoa com ESSA frase por 7 dias, então o número vale só para estas regras (não cai na boas-vindas comum). Resposta curta (até 5 palavras), uma vez só; frase longa, dois números ou outra coisa ficam com ela. Textos do copy-chief (Marketing-Os/boas-vindas/mensagem-tema.md). Portão de seguidor (Simone 22/11/2026): quem não segue recebe o texto da opção e o cartão \"Você já me segue?\"; o cartão da consulta sai no toque em \"Já te sigo ✓\". Copy do copy-chief. 22/11: opção 3 trocada de \"acalmar a minha mente\" para \"Quero a paz da conexão com o divino em mim\" (copy-chief).",
       "palavras": [
         "3",
-        "mente",
-        "acalmar"
+        "paz",
+        "divino",
+        "conexao",
+        "conexão"
       ],
       "origens": [
         "direct"
       ],
       "soPalavra": true,
       "depoisDe": "o que mais falou com você",
-      "textoAntes": "Entendo, [nome].\n\nO Osho fala que, quando a mente para, a gente encontra o que já está dentro.\n\nSó que uma mente acelerada, cheia de preocupação e cobrança, quase nunca desacelera por conta própria.\n\nNa maioria das vezes, essa agitação é um padrão que a mente aprendeu cedo para se proteger.\n\nSe fizer sentido para você, quero te oferecer uma consulta diagnóstica gratuita de 50 minutos comigo. A gente olha o que mantém a sua mente nesse ritmo e do que ela está tentando proteger você.\n\nEla fica gratuita até {fimDoMes}.",
+      "textoAntes": "Que bonito, [nome].\n\nO Osho fala que, no momento em que você se liberta da culpa e da esperteza, a porta do Divino se abre.\n\nMuitas vezes, o que mantém essa porta fechada é a culpa e o medo que a mente aprendeu cedo e ainda segura.\n\nSe fizer sentido para você, quero te oferecer uma consulta diagnóstica gratuita de 50 minutos comigo. A gente olha o que a sua mente ainda segura e o que hoje afasta você dessa paz.\n\nEla fica gratuita até {fimDoMes}.",
       "cartao": {
         "titulo": "Sua consulta diagnóstica começa aqui",
         "subtitulo": "Gratuita até {fimDoMes}. Toque no botão e garanta a sua.",
-        "url": "https://lp.selfcreation.com.br/vida-pessoal/?origem=osho-mente",
+        "url": "https://lp.selfcreation.com.br/vida-pessoal/?origem=osho-paz",
         "botao": "Começar agora",
         "imagem": "https://ig-midia.simonecarneiro.workers.dev/consulta/og-consulta-quadrada.jpg"
       },
