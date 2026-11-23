@@ -37,6 +37,37 @@
   ],
   "regras": [
     {
+      "nome": "reels-osho-13-11",
+      "ativo": true,
+      "palavras": [],
+      "qualquerComentario": true,
+      "origens": [
+        "comentario"
+      ],
+      "midias": [
+        "18126493879698606"
+      ],
+      "exigirSeguidor": false,
+      "botaoFinal": {
+        "texto": "Oi! Vi seu comentário no vídeo do Osho 🙏\n\nSou a Simone, trabalho com neurociência e comportamento.\n\nMe conta, com o que você mais se identificou nesse vídeo?",
+        "botoes": [
+          {
+            "titulo": "Vencer a culpa",
+            "regra": "osho-culpa"
+          },
+          {
+            "titulo": "Vencer o medo",
+            "regra": "osho-medo"
+          },
+          {
+            "titulo": "Ter paz interior",
+            "regra": "osho-paz"
+          }
+        ]
+      },
+      "_porque": "Simone 23/11/2026 (\"liga o robô no de 13/11 também\"): no Reels do Osho de 13/11 (religiosidade sem medo e culpa), QUALQUER comentário novo recebe na hora a mesma mensagem enviada em 22/11, com os botões Vencer a culpa / Vencer o medo / Ter paz interior (respostas pelas regras osho-*). Sem portão e sem resposta pública."
+    },
+    {
       "nome": "reels-osho-20-11",
       "ativo": true,
       "palavras": [],
