@@ -47,7 +47,7 @@
       "midias": [
         "18126493879698606"
       ],
-      "exigirSeguidor": false,
+      "exigirSeguidor": true,
       "botaoFinal": {
         "texto": "Oi! Vi seu comentário no vídeo do Osho 🙏\n\nSou a Simone, trabalho com neurociência e comportamento.\n\nMe conta, com o que você mais se identificou nesse vídeo?",
         "botoes": [
@@ -65,7 +65,15 @@
           }
         ]
       },
-      "_porque": "Simone 23/11/2026 (\"liga o robô no de 13/11 também\"): no Reels do Osho de 13/11 (religiosidade sem medo e culpa), QUALQUER comentário novo recebe na hora a mesma mensagem enviada em 22/11, com os botões Vencer a culpa / Vencer o medo / Ter paz interior (respostas pelas regras osho-*). Sem portão e sem resposta pública."
+      "_porque": "Simone 23/11/2026 (\"liga o robô no de 13/11 também\"): no Reels do Osho de 13/11 (religiosidade sem medo e culpa), QUALQUER comentário novo recebe na hora a mesma mensagem enviada em 22/11, com os botões Vencer a culpa / Vencer o medo / Ter paz interior (respostas pelas regras osho-*). Sem portão e sem resposta pública. 23/11 (aprovado por ela): portão de seguidor; quem não segue recebe \"Você já me segue? 😊\" (Seguir / Já te sigo ✓) e a mensagem com o botão sai depois do toque, se o Instagram confirmar que segue.",
+      "convite": {
+        "titulo": "Você já me segue? 😊",
+        "subtitulo": "Me segue por aqui e eu te mando o link da sua consulta diagnóstica gratuita.",
+        "botaoSeguir": "Seguir",
+        "botao": "Já te sigo ✓",
+        "perfil": "https://www.instagram.com/sicarneironeurociencia/"
+      },
+      "aindaNaoSegue": "Ainda não te vi por aqui 💜 Toca em Seguir e volta neste botão."
     },
     {
       "nome": "reels-osho-20-11",
@@ -78,13 +86,21 @@
       "midias": [
         "18039913013851746"
       ],
-      "exigirSeguidor": false,
+      "exigirSeguidor": true,
       "botaoFinal": {
         "texto": "Oi! Vi seu comentário no vídeo do Osho 🙏\n\nSou a Simone, trabalho com neurociência e comportamento.\n\nSe hoje você busca essa conexão e não sabe por onde começar, quero te convidar a conhecer um caminho objetivo que vai direto à raiz e te reconecta com o seu ser, com o seu poder interior.\n\nPode ser o começo de uma vida mais leve e com mais paz por dentro. Começa por uma consulta diagnóstica gratuita 👇",
         "botao": "Quero conhecer",
         "url": "https://lp.selfcreation.com.br/poder-interior/?origem=reels-osho-20-11"
       },
-      "_porque": "Simone 23/11/2026 (\"liga o robô\"): no Reels do Osho de 20/11 (Deus/poder interior), QUALQUER comentário novo recebe na hora a mensagem aprovada por ela + botão Quero conhecer que abre a /poder-interior/. Sem portão de seguidor e sem resposta pública (não pedidos). Comentários antigos já foram atendidos à mão (ver enviar-deus-comentarios.mjs)."
+      "_porque": "Simone 23/11/2026 (\"liga o robô\"): no Reels do Osho de 20/11 (Deus/poder interior), QUALQUER comentário novo recebe na hora a mensagem aprovada por ela + botão Quero conhecer que abre a /poder-interior/. Sem portão de seguidor e sem resposta pública (não pedidos). Comentários antigos já foram atendidos à mão (ver enviar-deus-comentarios.mjs). 23/11 (aprovado por ela): portão de seguidor; quem não segue recebe \"Você já me segue? 😊\" (Seguir / Já te sigo ✓) e a mensagem com o botão sai depois do toque, se o Instagram confirmar que segue.",
+      "convite": {
+        "titulo": "Você já me segue? 😊",
+        "subtitulo": "Me segue por aqui e eu te mando o link da sua consulta diagnóstica gratuita.",
+        "botaoSeguir": "Seguir",
+        "botao": "Já te sigo ✓",
+        "perfil": "https://www.instagram.com/sicarneironeurociencia/"
+      },
+      "aindaNaoSegue": "Ainda não te vi por aqui 💜 Toca em Seguir e volta neste botão."
     },
     {
       "nome": "reels-fases-terapia",
