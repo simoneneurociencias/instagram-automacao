@@ -55,7 +55,7 @@
           "texto": "Oi, aqui é a Simone. Esse teste é pra quem atende como terapeuta ou na área da psicologia. É o seu caso?",
           "sim": "Sim",
           "nao": "Ainda não",
-          "regraNao": "consulta"
+          "regraNao": "reset-ainda-nao"
         },
         "abertura": "São 6 perguntas de sim ou não. Leva 1 minuto.",
         "perguntas": [
@@ -121,6 +121,26 @@
         "depoisZapLembrar": "Anotado. Te aviso por lá.",
         "zapInvalido": "Acho que esse não é um número de WhatsApp. Me manda de novo com DDD, assim: (21) 99999-9999.",
         "planilha": "https://script.google.com/macros/s/AKfycbzOzLiS64c2E3Q0mwasd8GPw8rWm5bAvaAKuhiaiiQ-DF5IV7ZUROZSLB-RCkScIkPu/exec"
+      }
+    },
+    {
+      "nome": "reset-ainda-nao",
+      "ativo": true,
+      "_porque": "Simone 23/11/2026: quem toca \"Ainda não\" no filtro do teste RESET (não atende como terapeuta) vai para a /vida-pessoal/, não para a /bio/. Sem palavras: só é chamada pelo botão do teste. Textos do cartão iguais aos do Osho (já aprovados); imagem da própria /vida-pessoal/ (a do PADRÃO diz 'para terapeutas').",
+      "palavras": [],
+      "origens": [
+        "direct"
+      ],
+      "cartao": {
+        "titulo": "Sua consulta diagnóstica começa aqui",
+        "subtitulo": "Gratuita até {fimDoMes}. Toque no botão e garanta a sua.",
+        "url": "https://instagram-automacao.simonecarneiro.workers.dev/consulta?u={igsid}&o=reset-ainda-nao&p=vida-pessoal",
+        "botao": "Começar agora",
+        "imagem": "https://lp.selfcreation.com.br/bio/og-bio-v2.jpg"
+      },
+      "exigirSeguidor": false,
+      "acompanhamento": {
+        "pergunta": "Oi, [nome]! Vi que você pediu o acesso à consulta. Ficou alguma dúvida para agendar? 🤍"
       }
     },
     {
