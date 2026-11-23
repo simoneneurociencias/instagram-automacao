@@ -60,7 +60,7 @@
             "regra": "osho-medo"
           },
           {
-            "titulo": "Ter paz interior",
+            "titulo": "Conexão interior",
             "regra": "osho-paz"
           }
         ]
@@ -593,7 +593,7 @@
     {
       "nome": "osho-culpa",
       "ativo": true,
-      "_porque": "Simone 22/11/2026: resposta automática da mensagem do tema Osho (seguidores da semana e quem comentou nos Reels do Osho). A mensagem termina em \"o que mais falou com você?\"; o Worker vê o eco e marca a pessoa com ESSA frase por 7 dias, então o número vale só para estas regras (não cai na boas-vindas comum). Resposta curta (até 5 palavras), uma vez só; frase longa, dois números ou outra coisa ficam com ela. Textos do copy-chief (Marketing-Os/boas-vindas/mensagem-tema.md). Portão de seguidor (Simone 22/11/2026): quem não segue recebe o texto da opção e o cartão \"Você já me segue?\"; o cartão da consulta sai no toque em \"Já te sigo ✓\". Copy do copy-chief. 22/11 (depois): resposta direta com a proposta; o botão Começar agora passa pelo /consulta do Worker, que só abre a /vida-pessoal/ para quem segue (quem não segue vê a página \"Falta só um passo\"). O cartão \"Você já me segue?\" no Direct saiu. 23/11: acompanhamento do dia seguinte (20h a 23h30 depois do toque no botão), só para quem NÃO terminou o formulário (a página avisa o /feito do Worker). Resposta da pessoa fica com a Simone.",
+      "_porque": "Simone 22/11/2026: resposta automática da mensagem do tema Osho (seguidores da semana e quem comentou nos Reels do Osho). A mensagem termina em \"o que mais falou com você?\"; o Worker vê o eco e marca a pessoa com ESSA frase por 7 dias, então o número vale só para estas regras (não cai na boas-vindas comum). Resposta curta (até 5 palavras), uma vez só; frase longa, dois números ou outra coisa ficam com ela. Textos do copy-chief (Marketing-Os/boas-vindas/mensagem-tema.md). Portão de seguidor (Simone 22/11/2026): quem não segue recebe o texto da opção e o cartão \"Você já me segue?\"; o cartão da consulta sai no toque em \"Já te sigo ✓\". Copy do copy-chief. 22/11 (depois): resposta direta com a proposta; o botão Começar agora passa pelo /consulta do Worker, que só abre a /vida-pessoal/ para quem segue (quem não segue vê a página \"Falta só um passo\"). O cartão \"Você já me segue?\" no Direct saiu. 23/11: acompanhamento do dia seguinte (20h a 23h30 depois do toque no botão), só para quem NÃO terminou o formulário (a página avisa o /feito do Worker). Resposta da pessoa fica com a Simone. 23/11: Começar agora abre a /poder-interior/ (posts do Osho centralizados numa página).",
       "palavras": [
         "1",
         "culpa"
@@ -610,7 +610,7 @@
       "cartao": {
         "titulo": "Sua consulta diagnóstica começa aqui",
         "subtitulo": "Gratuita até {fimDoMes}. Toque no botão e garanta a sua.",
-        "url": "https://instagram-automacao.simonecarneiro.workers.dev/consulta?u={igsid}&o=osho-culpa",
+        "url": "https://instagram-automacao.simonecarneiro.workers.dev/consulta?u={igsid}&o=osho-culpa&p=poder-interior",
         "botao": "Começar agora",
         "imagem": "https://ig-midia.simonecarneiro.workers.dev/consulta/og-consulta-quadrada.jpg"
       },
@@ -630,7 +630,7 @@
     {
       "nome": "osho-medo",
       "ativo": true,
-      "_porque": "Simone 22/11/2026: resposta automática da mensagem do tema Osho (seguidores da semana e quem comentou nos Reels do Osho). A mensagem termina em \"o que mais falou com você?\"; o Worker vê o eco e marca a pessoa com ESSA frase por 7 dias, então o número vale só para estas regras (não cai na boas-vindas comum). Resposta curta (até 5 palavras), uma vez só; frase longa, dois números ou outra coisa ficam com ela. Textos do copy-chief (Marketing-Os/boas-vindas/mensagem-tema.md). Portão de seguidor (Simone 22/11/2026): quem não segue recebe o texto da opção e o cartão \"Você já me segue?\"; o cartão da consulta sai no toque em \"Já te sigo ✓\". Copy do copy-chief. 22/11 (depois): resposta direta com a proposta; o botão Começar agora passa pelo /consulta do Worker, que só abre a /vida-pessoal/ para quem segue (quem não segue vê a página \"Falta só um passo\"). O cartão \"Você já me segue?\" no Direct saiu. 23/11: acompanhamento do dia seguinte (20h a 23h30 depois do toque no botão), só para quem NÃO terminou o formulário (a página avisa o /feito do Worker). Resposta da pessoa fica com a Simone.",
+      "_porque": "Simone 22/11/2026: resposta automática da mensagem do tema Osho (seguidores da semana e quem comentou nos Reels do Osho). A mensagem termina em \"o que mais falou com você?\"; o Worker vê o eco e marca a pessoa com ESSA frase por 7 dias, então o número vale só para estas regras (não cai na boas-vindas comum). Resposta curta (até 5 palavras), uma vez só; frase longa, dois números ou outra coisa ficam com ela. Textos do copy-chief (Marketing-Os/boas-vindas/mensagem-tema.md). Portão de seguidor (Simone 22/11/2026): quem não segue recebe o texto da opção e o cartão \"Você já me segue?\"; o cartão da consulta sai no toque em \"Já te sigo ✓\". Copy do copy-chief. 22/11 (depois): resposta direta com a proposta; o botão Começar agora passa pelo /consulta do Worker, que só abre a /vida-pessoal/ para quem segue (quem não segue vê a página \"Falta só um passo\"). O cartão \"Você já me segue?\" no Direct saiu. 23/11: acompanhamento do dia seguinte (20h a 23h30 depois do toque no botão), só para quem NÃO terminou o formulário (a página avisa o /feito do Worker). Resposta da pessoa fica com a Simone. 23/11: Começar agora abre a /poder-interior/ (posts do Osho centralizados numa página).",
       "palavras": [
         "2",
         "medo"
@@ -647,7 +647,7 @@
       "cartao": {
         "titulo": "Sua consulta diagnóstica começa aqui",
         "subtitulo": "Gratuita até {fimDoMes}. Toque no botão e garanta a sua.",
-        "url": "https://instagram-automacao.simonecarneiro.workers.dev/consulta?u={igsid}&o=osho-medo",
+        "url": "https://instagram-automacao.simonecarneiro.workers.dev/consulta?u={igsid}&o=osho-medo&p=poder-interior",
         "botao": "Começar agora",
         "imagem": "https://ig-midia.simonecarneiro.workers.dev/consulta/og-consulta-quadrada.jpg"
       },
@@ -667,7 +667,7 @@
     {
       "nome": "osho-paz",
       "ativo": true,
-      "_porque": "Simone 22/11/2026: resposta automática da mensagem do tema Osho (seguidores da semana e quem comentou nos Reels do Osho). A mensagem termina em \"o que mais falou com você?\"; o Worker vê o eco e marca a pessoa com ESSA frase por 7 dias, então o número vale só para estas regras (não cai na boas-vindas comum). Resposta curta (até 5 palavras), uma vez só; frase longa, dois números ou outra coisa ficam com ela. Textos do copy-chief (Marketing-Os/boas-vindas/mensagem-tema.md). Portão de seguidor (Simone 22/11/2026): quem não segue recebe o texto da opção e o cartão \"Você já me segue?\"; o cartão da consulta sai no toque em \"Já te sigo ✓\". Copy do copy-chief. 22/11: opção 3 trocada de \"acalmar a minha mente\" para \"Quero a paz da conexão com o divino em mim\" (copy-chief). 22/11 (depois): resposta direta com a proposta; o botão Começar agora passa pelo /consulta do Worker, que só abre a /vida-pessoal/ para quem segue (quem não segue vê a página \"Falta só um passo\"). O cartão \"Você já me segue?\" no Direct saiu. 23/11: acompanhamento do dia seguinte (20h a 23h30 depois do toque no botão), só para quem NÃO terminou o formulário (a página avisa o /feito do Worker). Resposta da pessoa fica com a Simone.",
+      "_porque": "Simone 22/11/2026: resposta automática da mensagem do tema Osho (seguidores da semana e quem comentou nos Reels do Osho). A mensagem termina em \"o que mais falou com você?\"; o Worker vê o eco e marca a pessoa com ESSA frase por 7 dias, então o número vale só para estas regras (não cai na boas-vindas comum). Resposta curta (até 5 palavras), uma vez só; frase longa, dois números ou outra coisa ficam com ela. Textos do copy-chief (Marketing-Os/boas-vindas/mensagem-tema.md). Portão de seguidor (Simone 22/11/2026): quem não segue recebe o texto da opção e o cartão \"Você já me segue?\"; o cartão da consulta sai no toque em \"Já te sigo ✓\". Copy do copy-chief. 22/11: opção 3 trocada de \"acalmar a minha mente\" para \"Quero a paz da conexão com o divino em mim\" (copy-chief). 22/11 (depois): resposta direta com a proposta; o botão Começar agora passa pelo /consulta do Worker, que só abre a /vida-pessoal/ para quem segue (quem não segue vê a página \"Falta só um passo\"). O cartão \"Você já me segue?\" no Direct saiu. 23/11: acompanhamento do dia seguinte (20h a 23h30 depois do toque no botão), só para quem NÃO terminou o formulário (a página avisa o /feito do Worker). Resposta da pessoa fica com a Simone. 23/11: Começar agora abre a /poder-interior/ (posts do Osho centralizados numa página).",
       "palavras": [
         "3",
         "paz",
@@ -688,7 +688,7 @@
       "cartao": {
         "titulo": "Sua consulta diagnóstica começa aqui",
         "subtitulo": "Gratuita até {fimDoMes}. Toque no botão e garanta a sua.",
-        "url": "https://instagram-automacao.simonecarneiro.workers.dev/consulta?u={igsid}&o=osho-paz",
+        "url": "https://instagram-automacao.simonecarneiro.workers.dev/consulta?u={igsid}&o=osho-paz&p=poder-interior",
         "botao": "Começar agora",
         "imagem": "https://ig-midia.simonecarneiro.workers.dev/consulta/og-consulta-quadrada.jpg"
       },
