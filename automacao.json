@@ -37,6 +37,93 @@
   ],
   "regras": [
     {
+      "nome": "reset-teste",
+      "ativo": true,
+      "palavras": [
+        "reset",
+        "re:set"
+      ],
+      "origens": [
+        "comentario"
+      ],
+      "_porque": "Simone 23/11/2026: teste de 6 perguntas no direct (PDF RESET-ManyChat), montado no robô. Resultado por pilar, áudio, convite ao webinário e WhatsApp antes do link. Textos com ajuste do copy-chief (gênero e 'por que ela aparece').",
+      "respostaPublica": [
+        "Te mandei no direct."
+      ],
+      "quiz": {
+        "filtro": {
+          "texto": "Oi, aqui é a Simone. Esse teste é pra quem atende como terapeuta ou na área da psicologia. É o seu caso?",
+          "sim": "Sim",
+          "nao": "Ainda não",
+          "regraNao": "consulta"
+        },
+        "abertura": "São 6 perguntas de sim ou não. Leva 1 minuto.",
+        "perguntas": [
+          {
+            "tag": "A1",
+            "texto": "Você sente que precisa de mais uma formação antes de cobrar mais ou de se lançar?"
+          },
+          {
+            "tag": "V1",
+            "texto": "Você já gravou um vídeo sobre o seu trabalho e apagou antes de postar?"
+          },
+          {
+            "tag": "S1",
+            "texto": "Na hora de dizer o seu valor, você explica demais ou oferece desconto antes de pedirem?"
+          },
+          {
+            "tag": "A2",
+            "texto": "Quando elogiam o seu trabalho, você diminui o elogio ou muda de assunto?"
+          },
+          {
+            "tag": "V2",
+            "texto": "Você deixa de falar do que faz com medo do que vão pensar?"
+          },
+          {
+            "tag": "S2",
+            "texto": "Quando o mês é bom, vem mais ansiedade do que alívio?"
+          }
+        ],
+        "botaoSim": "Sim",
+        "botaoNao": "Não",
+        "resultados": {
+          "seguranca": {
+            "nome": "Segurança",
+            "texto": "A sua trava está na Segurança. É ela que muda a sua voz na hora de dizer o preço.",
+            "audio": ""
+          },
+          "visibilidade": {
+            "nome": "Visibilidade",
+            "texto": "A sua trava está na Visibilidade. É ela que faz você gravar e apagar, e continuar com um trabalho que pouca gente conhece.",
+            "audio": ""
+          },
+          "autovalor": {
+            "nome": "Autovalor",
+            "texto": "A sua trava está no Autovalor. É ele que faz você sentir que ainda não sabe o suficiente, mesmo sabendo.",
+            "audio": ""
+          },
+          "nenhum": {
+            "nome": "Nenhum",
+            "texto": "Nessas 6 perguntas a sua trava não apareceu forte. Às vezes ela só aparece na hora H: no preço, no vídeo, no convite que você não faz."
+          }
+        },
+        "gravei": "Gravei um áudio pra você:",
+        "convite": {
+          "texto": "E se você quer entender de onde vem essa trava e por que ela aparece, é exatamente sobre isso que eu falo ao vivo no webinário Os 3 Segredos do Terapeuta de Alto Valor. Sábado, 16 de janeiro, das 13h às 17h.",
+          "sim": "Quero o link da vaga",
+          "nao": "Agora não"
+        },
+        "pedeZapLink": "Me manda o seu WhatsApp aqui que eu te passo o link e te aviso de tudo do webinário por lá.",
+        "depoisZapLink": "Anotado! Aqui está o link da sua vaga:",
+        "botaoVaga": "Garantir minha vaga",
+        "urlVaga": "https://lp.selfcreation.com.br/3-segredos/?origem=reset-direct&pilar={pilar}",
+        "pedeZapLembrar": "Sem problema. Me manda o seu WhatsApp que eu te lembro perto do dia.",
+        "depoisZapLembrar": "Anotado. Te aviso por lá.",
+        "zapInvalido": "Acho que esse não é um número de WhatsApp. Me manda de novo com DDD, assim: (21) 99999-9999.",
+        "planilha": "https://script.google.com/macros/s/AKfycbzOzLiS64c2E3Q0mwasd8GPw8rWm5bAvaAKuhiaiiQ-DF5IV7ZUROZSLB-RCkScIkPu/exec"
+      }
+    },
+    {
       "nome": "reels-osho-13-11",
       "ativo": true,
       "palavras": [],
@@ -187,9 +274,7 @@
       "ativo": true,
       "palavras": [
         "padrao",
-        "padrão",
-        "reset",
-        "re:set"
+        "padrão"
       ],
       "respostaPublica": [
         "Enviei o acesso no seu direct. 💛"
@@ -276,8 +361,6 @@
         "destrava",
         "padrao",
         "padrão",
-        "reset",
-        "re:set",
         "trava",
         "expansao",
         "expansão"
