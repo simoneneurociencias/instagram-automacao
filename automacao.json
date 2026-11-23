@@ -126,21 +126,19 @@
     {
       "nome": "reset-ainda-nao",
       "ativo": true,
-      "_porque": "Simone 23/11/2026: quem toca \"Ainda não\" no filtro do teste RESET (não atende como terapeuta) vai para a /vida-pessoal/, não para a /bio/. Sem palavras: só é chamada pelo botão do teste. Textos do cartão iguais aos do Osho (já aprovados); imagem da própria /vida-pessoal/ (a do PADRÃO diz 'para terapeutas').",
+      "_porque": "Simone 23/11/2026: quem toca \"Ainda não\" no filtro do teste RESET (não atende como terapeuta) vai para a /vida-pessoal/, não para a /bio/. Sem palavras: só é chamada pelo botão do teste. Textos do cartão iguais aos do Osho (já aprovados); imagem da própria /vida-pessoal/ (a do PADRÃO diz 'para terapeutas'). 23/11 (depois): ela pediu texto antes + botão direto para a LP (sem passar pelo /consulta do Worker). Texto nas palavras dela. &u= vai junto para a página avisar o /feito e o acompanhamento não ir para quem já preencheu.",
       "palavras": [],
       "origens": [
         "direct"
       ],
-      "cartao": {
-        "titulo": "Sua consulta diagnóstica começa aqui",
-        "subtitulo": "Gratuita até {fimDoMes}. Toque no botão e garanta a sua.",
-        "url": "https://instagram-automacao.simonecarneiro.workers.dev/consulta?u={igsid}&o=reset-ainda-nao&p=vida-pessoal",
-        "botao": "Começar agora",
-        "imagem": "https://lp.selfcreation.com.br/bio/og-bio-v2.jpg"
-      },
       "exigirSeguidor": false,
       "acompanhamento": {
         "pergunta": "Oi, [nome]! Vi que você pediu o acesso à consulta. Ficou alguma dúvida para agendar? 🤍"
+      },
+      "botaoFinal": {
+        "texto": "Então, te convido para uma consulta diagnóstica gratuita comigo. Clique no botão para acessar.",
+        "botao": "Começar agora",
+        "url": "https://lp.selfcreation.com.br/vida-pessoal/?origem=reset-ainda-nao&u={igsid}"
       }
     },
     {
