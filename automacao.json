@@ -620,7 +620,8 @@
       "soPalavra": true,
       "depoisDe": [
         "com o que você mais se identificou",
-        "o que mais falou com você"
+        "o que mais falou com você",
+        "o que mais pesa em você"
       ],
       "textoAntes": "[nome], a culpa costuma ter uma origem bem mais antiga do que parece.\n\nVamos olhar de onde vem a sua? É só tocar aqui embaixo 👇",
       "cartao": {
@@ -657,7 +658,8 @@
       "soPalavra": true,
       "depoisDe": [
         "com o que você mais se identificou",
-        "o que mais falou com você"
+        "o que mais falou com você",
+        "o que mais pesa em você"
       ],
       "textoAntes": "Esse medo um dia protegeu você, [nome]. Hoje ele só segura.\n\nVamos ver o que ele está protegendo? Toca aqui 👇",
       "cartao": {
@@ -699,7 +701,8 @@
       "soPalavra": true,
       "depoisDe": [
         "com o que você mais se identificou",
-        "o que mais falou com você"
+        "o que mais falou com você",
+        "o que mais pesa em você"
       ],
       "textoAntes": "Lindo, [nome]. Paz não se busca lá fora, né?\n\nMuitas vezes é a própria mente que fica no caminho. Quer ver o que está no seu? Toca aqui 👇",
       "cartao": {
