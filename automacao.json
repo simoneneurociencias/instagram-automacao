@@ -54,7 +54,7 @@
         "filtro": {
           "texto": "Oi, aqui é a Simone. Esse teste é pra quem atende como terapeuta ou na área da psicologia. É o seu caso?",
           "sim": "Sim",
-          "nao": "Ainda não",
+          "nao": "Não",
           "regraNao": "reset-ainda-nao"
         },
         "abertura": "São 6 perguntas de sim ou não. Leva 1 minuto.",
